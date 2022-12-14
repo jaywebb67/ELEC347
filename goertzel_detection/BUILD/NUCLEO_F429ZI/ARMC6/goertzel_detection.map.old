@@ -36959,9 +36959,9 @@ Memory Map of the image
 
   Image Entry point : 0x080001ad
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00021f2c, Max: 0x00200000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00021f24, Max: 0x00200000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00021e24, Max: 0x00200000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00021e1c, Max: 0x00200000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -38426,627 +38426,626 @@ Memory Map of the image
     0x080191da   0x00000002   PAD
     0x080191dc   0x00000032   Code   RO        34108    .text.lseek         BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
     0x0801920e   0x00000002   PAD
-    0x08019210   0x000000a0   Code   RO          164    .text.main          BUILD/NUCLEO_F429ZI/ARMC6/main.o
-    0x080192b0   0x0000001a   Code   RO        33670    .text.mbed_assert_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_assert.o
-    0x080192ca   0x00000002   PAD
-    0x080192cc   0x0000002c   Code   RO         1101    .text.mbed_cpy_nvic  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
-    0x080192f8   0x0000006c   Code   RO        33783    .text.mbed_die      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
-    0x08019364   0x00000120   Code   RO        33843    .text.mbed_error    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x08019484   0x00000002   Code   RO        33827    .text.mbed_error_hook  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x08019486   0x00000002   PAD
-    0x08019488   0x0000006a   Code   RO        33831    .text.mbed_error_initialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x080194f2   0x00000002   PAD
-    0x080194f4   0x0000002a   Code   RO        33867    .text.mbed_error_is_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x0801951e   0x00000002   PAD
-    0x08019520   0x00000014   Code   RO        33863    .text.mbed_error_is_hw_fault  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x08019534   0x00000020   Code   RO        33785    .text.mbed_error_printf  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
-    0x08019554   0x00000052   Code   RO        33789    .text.mbed_error_puts  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
+    0x08019210   0x0000009c   Code   RO          164    .text.main          BUILD/NUCLEO_F429ZI/ARMC6/main.o
+    0x080192ac   0x0000001a   Code   RO        33670    .text.mbed_assert_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_assert.o
+    0x080192c6   0x00000002   PAD
+    0x080192c8   0x0000002c   Code   RO         1101    .text.mbed_cpy_nvic  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
+    0x080192f4   0x0000006c   Code   RO        33783    .text.mbed_die      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
+    0x08019360   0x00000120   Code   RO        33843    .text.mbed_error    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08019480   0x00000002   Code   RO        33827    .text.mbed_error_hook  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08019482   0x00000002   PAD
+    0x08019484   0x0000006a   Code   RO        33831    .text.mbed_error_initialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x080194ee   0x00000002   PAD
+    0x080194f0   0x0000002a   Code   RO        33867    .text.mbed_error_is_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x0801951a   0x00000002   PAD
+    0x0801951c   0x00000014   Code   RO        33863    .text.mbed_error_is_hw_fault  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08019530   0x00000020   Code   RO        33785    .text.mbed_error_printf  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
+    0x08019550   0x00000052   Code   RO        33789    .text.mbed_error_puts  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
+    0x080195a2   0x00000002   PAD
+    0x080195a4   0x00000002   Code   RO        33829    .text.mbed_error_reboot_callback  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
     0x080195a6   0x00000002   PAD
-    0x080195a8   0x00000002   Code   RO        33829    .text.mbed_error_reboot_callback  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x080195aa   0x00000002   PAD
-    0x080195ac   0x00000034   Code   RO        33787    .text.mbed_error_vprintf  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
-    0x080195e0   0x000000f8   Code   RO        33631    .text.mbed_fault_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
-    0x080196d8   0x0000000c   Code   RO        33839    .text.mbed_get_error_in_progress  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x080196e4   0x00000038   Code   RO        33825    .text.mbed_halt_system  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x0801971c   0x00000028   Code   RO         1099    .text.mbed_init     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
-    0x08019744   0x00000016   Code   RO         4866    .text.mbed_mac_address  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
+    0x080195a8   0x00000034   Code   RO        33787    .text.mbed_error_vprintf  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_board.o
+    0x080195dc   0x000000f8   Code   RO        33631    .text.mbed_fault_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+    0x080196d4   0x0000000c   Code   RO        33839    .text.mbed_get_error_in_progress  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x080196e0   0x00000038   Code   RO        33825    .text.mbed_halt_system  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08019718   0x00000028   Code   RO         1099    .text.mbed_init     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
+    0x08019740   0x00000016   Code   RO         4866    .text.mbed_mac_address  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
+    0x08019756   0x00000002   PAD
+    0x08019758   0x00000002   Code   RO         1109    .text.mbed_main     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
     0x0801975a   0x00000002   PAD
-    0x0801975c   0x00000002   Code   RO         1109    .text.mbed_main     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
-    0x0801975e   0x00000002   PAD
-    0x08019760   0x000003da   Code   RO        34484    .text.mbed_minimal_formatted_string  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x08019b3a   0x00000002   PAD
-    0x08019b3c   0x00000160   Code   RO        34488    .text.mbed_minimal_formatted_string_integer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x08019c9c   0x0000003e   Code   RO        34492    .text.mbed_minimal_formatted_string_string  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x08019cda   0x00000002   PAD
-    0x08019cdc   0x00000050   Code   RO        34494    .text.mbed_minimal_formatted_string_void_pointer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x08019d2c   0x00000042   Code   RO        34490    .text.mbed_minimal_putchar  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x08019d6e   0x00000002   PAD
-    0x08019d70   0x000000b8   Code   RO        33027    .text.mbed_mpu_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mpu/mbed_mpu_v7m.o
-    0x08019e28   0x00000008   Code   RO         1123    .text.mbed_rtos_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
-    0x08019e30   0x00000030   Code   RO         1127    .text.mbed_rtos_init_singleton_mutex  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
-    0x08019e60   0x000000a8   Code   RO         1125    .text.mbed_rtos_start  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
-    0x08019f08   0x00000024   Code   RO        41682    .text.mbed_sdk_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/mbed_overrides.o
-    0x08019f2c   0x0000001c   Code   RO         1105    .text.mbed_start    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
-    0x08019f48   0x00000002   Code   RO         1107    .text.mbed_tfm_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
-    0x08019f4a   0x00000002   PAD
-    0x08019f4c   0x0000002c   Code   RO        29836    .text.mbed_tiny_compute_crc32  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/MbedCRC.o
-    0x08019f78   0x0000001e   Code   RO         1073    .text.mbed_toolchain_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
-    0x08019f96   0x00000002   PAD
-    0x08019f98   0x0000001a   Code   RO        33869    .text.name_or_unnamed  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x08019fb2   0x00000002   PAD
-    0x08019fb4   0x00000096   Code   RO        34080    .text.open          BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x0801a04a   0x00000002   PAD
-    0x0801a04c   0x0000002e   Code   RO          270    .text.osDelay       BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_delay.o
-    0x0801a07a   0x00000002   PAD
-    0x0801a07c   0x0000002e   Code   RO          290    .text.osEventFlagsNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801a0aa   0x00000002   PAD
-    0x0801a0ac   0x0000002c   Code   RO          298    .text.osEventFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801a0d8   0x0000003e   Code   RO          310    .text.osEventFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801a116   0x00000002   PAD
-    0x0801a118   0x00000026   Code   RO          407    .text.osKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a13e   0x00000002   PAD
-    0x0801a140   0x00000020   Code   RO          423    .text.osKernelGetTickCount  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a160   0x0000002e   Code   RO          395    .text.osKernelInitialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a18e   0x00000002   PAD
-    0x0801a190   0x0000002a   Code   RO          411    .text.osKernelStart  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a1ba   0x00000002   PAD
-    0x0801a1bc   0x0000003e   Code   RO          612    .text.osMessageQueueGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801a1fa   0x00000002   PAD
-    0x0801a1fc   0x0000003e   Code   RO          608    .text.osMessageQueuePut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801a23a   0x00000002   PAD
-    0x0801a23c   0x00000034   Code   RO          686    .text.osMutexAcquire  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a270   0x00000030   Code   RO          692    .text.osMutexDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a2a0   0x0000002e   Code   RO          678    .text.osMutexNew    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a2ce   0x00000002   PAD
-    0x0801a2d0   0x00000030   Code   RO          688    .text.osMutexRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a300   0x000000fc   Code   RO         1148    .text.osRtxErrorNotify  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
-    0x0801a3fc   0x00000002   Code   RO          328    .text.osRtxEventFlagsId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801975c   0x000003da   Code   RO        34484    .text.mbed_minimal_formatted_string  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x08019b36   0x00000002   PAD
+    0x08019b38   0x00000160   Code   RO        34488    .text.mbed_minimal_formatted_string_integer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x08019c98   0x0000003e   Code   RO        34492    .text.mbed_minimal_formatted_string_string  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x08019cd6   0x00000002   PAD
+    0x08019cd8   0x00000050   Code   RO        34494    .text.mbed_minimal_formatted_string_void_pointer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x08019d28   0x00000042   Code   RO        34490    .text.mbed_minimal_putchar  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x08019d6a   0x00000002   PAD
+    0x08019d6c   0x000000b8   Code   RO        33027    .text.mbed_mpu_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mpu/mbed_mpu_v7m.o
+    0x08019e24   0x00000008   Code   RO         1123    .text.mbed_rtos_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
+    0x08019e2c   0x00000030   Code   RO         1127    .text.mbed_rtos_init_singleton_mutex  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
+    0x08019e5c   0x000000a8   Code   RO         1125    .text.mbed_rtos_start  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
+    0x08019f04   0x00000024   Code   RO        41682    .text.mbed_sdk_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/mbed_overrides.o
+    0x08019f28   0x0000001c   Code   RO         1105    .text.mbed_start    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
+    0x08019f44   0x00000002   Code   RO         1107    .text.mbed_tfm_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_boot.o
+    0x08019f46   0x00000002   PAD
+    0x08019f48   0x0000002c   Code   RO        29836    .text.mbed_tiny_compute_crc32  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/MbedCRC.o
+    0x08019f74   0x0000001e   Code   RO         1073    .text.mbed_toolchain_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x08019f92   0x00000002   PAD
+    0x08019f94   0x0000001a   Code   RO        33869    .text.name_or_unnamed  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08019fae   0x00000002   PAD
+    0x08019fb0   0x00000096   Code   RO        34080    .text.open          BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x0801a046   0x00000002   PAD
+    0x0801a048   0x0000002e   Code   RO          270    .text.osDelay       BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_delay.o
+    0x0801a076   0x00000002   PAD
+    0x0801a078   0x0000002e   Code   RO          290    .text.osEventFlagsNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a0a6   0x00000002   PAD
+    0x0801a0a8   0x0000002c   Code   RO          298    .text.osEventFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a0d4   0x0000003e   Code   RO          310    .text.osEventFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a112   0x00000002   PAD
+    0x0801a114   0x00000026   Code   RO          407    .text.osKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a13a   0x00000002   PAD
+    0x0801a13c   0x00000020   Code   RO          423    .text.osKernelGetTickCount  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a15c   0x0000002e   Code   RO          395    .text.osKernelInitialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a18a   0x00000002   PAD
+    0x0801a18c   0x0000002a   Code   RO          411    .text.osKernelStart  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a1b6   0x00000002   PAD
+    0x0801a1b8   0x0000003e   Code   RO          612    .text.osMessageQueueGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801a1f6   0x00000002   PAD
+    0x0801a1f8   0x0000003e   Code   RO          608    .text.osMessageQueuePut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801a236   0x00000002   PAD
+    0x0801a238   0x00000034   Code   RO          686    .text.osMutexAcquire  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a26c   0x00000030   Code   RO          692    .text.osMutexDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a29c   0x0000002e   Code   RO          678    .text.osMutexNew    BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a2ca   0x00000002   PAD
+    0x0801a2cc   0x00000030   Code   RO          688    .text.osMutexRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a2fc   0x000000fc   Code   RO         1148    .text.osRtxErrorNotify  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
+    0x0801a3f8   0x00000002   Code   RO          328    .text.osRtxEventFlagsId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a3fa   0x00000002   PAD
+    0x0801a3fc   0x00000002   Code   RO          784    .text.osRtxEventFlagsObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
     0x0801a3fe   0x00000002   PAD
-    0x0801a400   0x00000002   Code   RO          784    .text.osRtxEventFlagsObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801a402   0x00000002   PAD
-    0x0801a404   0x0000003a   Code   RO          318    .text.osRtxEventFlagsPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801a43e   0x00000002   PAD
-    0x0801a440   0x00000004   Code   RO         1146    .text.osRtxIdleThread  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
-    0x0801a444   0x00000014   Code   RO          393    .text.osRtxKernelErrorNotify  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a458   0x0000000c   Code   RO          776    .text.osRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801a464   0x0000000c   Code   RO          842    .text.osRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801a470   0x00000002   Code   RO          391    .text.osRtxKernelPreInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a472   0x00000002   PAD
-    0x0801a474   0x0000000c   Code   RO          441    .text.osRtxKernelState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801a480   0x000000aa   Code   RO          508    .text.osRtxMemoryAlloc  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
-    0x0801a52a   0x00000002   PAD
-    0x0801a52c   0x0000006a   Code   RO          510    .text.osRtxMemoryFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
-    0x0801a596   0x00000002   PAD
-    0x0801a598   0x00000054   Code   RO          502    .text.osRtxMemoryInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
-    0x0801a5ec   0x0000001e   Code   RO          522    .text.osRtxMemoryPoolAlloc  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
-    0x0801a60a   0x00000002   PAD
-    0x0801a60c   0x0000002a   Code   RO          528    .text.osRtxMemoryPoolFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
-    0x0801a636   0x00000002   PAD
-    0x0801a638   0x00000058   Code   RO          520    .text.osRtxMemoryPoolInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
-    0x0801a690   0x00000002   Code   RO          788    .text.osRtxMemoryPoolObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a400   0x0000003a   Code   RO          318    .text.osRtxEventFlagsPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a43a   0x00000002   PAD
+    0x0801a43c   0x00000004   Code   RO         1146    .text.osRtxIdleThread  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
+    0x0801a440   0x00000014   Code   RO          393    .text.osRtxKernelErrorNotify  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a454   0x0000000c   Code   RO          776    .text.osRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a460   0x0000000c   Code   RO          842    .text.osRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801a46c   0x00000002   Code   RO          391    .text.osRtxKernelPreInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a46e   0x00000002   PAD
+    0x0801a470   0x0000000c   Code   RO          441    .text.osRtxKernelState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801a47c   0x000000aa   Code   RO          508    .text.osRtxMemoryAlloc  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
+    0x0801a526   0x00000002   PAD
+    0x0801a528   0x0000006a   Code   RO          510    .text.osRtxMemoryFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
+    0x0801a592   0x00000002   PAD
+    0x0801a594   0x00000054   Code   RO          502    .text.osRtxMemoryInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.o
+    0x0801a5e8   0x0000001e   Code   RO          522    .text.osRtxMemoryPoolAlloc  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
+    0x0801a606   0x00000002   PAD
+    0x0801a608   0x0000002a   Code   RO          528    .text.osRtxMemoryPoolFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
+    0x0801a632   0x00000002   PAD
+    0x0801a634   0x00000058   Code   RO          520    .text.osRtxMemoryPoolInit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.o
+    0x0801a68c   0x00000002   Code   RO          788    .text.osRtxMemoryPoolObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a68e   0x00000002   PAD
+    0x0801a690   0x00000002   Code   RO          790    .text.osRtxMessageObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
     0x0801a692   0x00000002   PAD
-    0x0801a694   0x00000002   Code   RO          790    .text.osRtxMessageObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a694   0x00000002   Code   RO          596    .text.osRtxMessageQueueId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
     0x0801a696   0x00000002   PAD
-    0x0801a698   0x00000002   Code   RO          596    .text.osRtxMessageQueueId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801a69a   0x00000002   PAD
-    0x0801a69c   0x000000d2   Code   RO          636    .text.osRtxMessageQueuePostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801a76e   0x00000002   PAD
-    0x0801a770   0x00000030   Code   RO          594    .text.osRtxMessageQueueTimerSetup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801a7a0   0x00000002   Code   RO          698    .text.osRtxMutexId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a698   0x000000d2   Code   RO          636    .text.osRtxMessageQueuePostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801a76a   0x00000002   PAD
+    0x0801a76c   0x00000030   Code   RO          594    .text.osRtxMessageQueueTimerSetup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801a79c   0x00000002   Code   RO          698    .text.osRtxMutexId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a79e   0x00000002   PAD
+    0x0801a7a0   0x00000002   Code   RO          832    .text.osRtxMutexObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
     0x0801a7a2   0x00000002   PAD
-    0x0801a7a4   0x00000002   Code   RO          832    .text.osRtxMutexObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801a7a6   0x00000002   PAD
-    0x0801a7a8   0x0000005a   Code   RO          672    .text.osRtxMutexOwnerRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a802   0x00000002   PAD
-    0x0801a804   0x00000050   Code   RO          676    .text.osRtxMutexOwnerRestore  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801a854   0x00000002   Code   RO          332    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a7a4   0x0000005a   Code   RO          672    .text.osRtxMutexOwnerRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a7fe   0x00000002   PAD
+    0x0801a800   0x00000050   Code   RO          676    .text.osRtxMutexOwnerRestore  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a850   0x00000002   Code   RO          332    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801a852   0x00000002   PAD
+    0x0801a854   0x00000002   Code   RO          640    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
     0x0801a856   0x00000002   PAD
-    0x0801a858   0x00000002   Code   RO          640    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801a858   0x00000002   Code   RO          674    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
     0x0801a85a   0x00000002   PAD
-    0x0801a85c   0x00000002   Code   RO          674    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801a85c   0x00000002   Code   RO          746    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
     0x0801a85e   0x00000002   PAD
-    0x0801a860   0x00000002   Code   RO          746    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801a860   0x00000002   Code   RO          802    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
     0x0801a862   0x00000002   PAD
-    0x0801a864   0x00000002   Code   RO          802    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a864   0x00000002   Code   RO          822    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
     0x0801a866   0x00000002   PAD
-    0x0801a868   0x00000002   Code   RO          822    .text.osRtxObject   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801a86a   0x00000002   PAD
-    0x0801a86c   0x00000064   Code   RO          778    .text.osRtxPendSV_Handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801a8d0   0x0000002c   Code   RO          792    .text.osRtxPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801a8fc   0x00000002   Code   RO          752    .text.osRtxSemaphoreId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801a868   0x00000064   Code   RO          778    .text.osRtxPendSV_Handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a8cc   0x0000002c   Code   RO          792    .text.osRtxPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a8f8   0x00000002   Code   RO          752    .text.osRtxSemaphoreId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801a8fa   0x00000002   PAD
+    0x0801a8fc   0x00000002   Code   RO          786    .text.osRtxSemaphoreObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
     0x0801a8fe   0x00000002   PAD
-    0x0801a900   0x00000002   Code   RO          786    .text.osRtxSemaphoreObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801a902   0x00000002   PAD
-    0x0801a904   0x00000028   Code   RO          742    .text.osRtxSemaphorePostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801a92c   0x00000044   Code   RO          846    .text.osRtxThreadBlock  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801a970   0x000000a0   Code   RO          854    .text.osRtxThreadDelayInsert  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801aa10   0x00000050   Code   RO          850    .text.osRtxThreadDelayRemove  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801aa60   0x00000058   Code   RO          828    .text.osRtxThreadDelayTick  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801aab8   0x0000002c   Code   RO          956    .text.osRtxThreadDestroy  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801aae4   0x0000005e   Code   RO          840    .text.osRtxThreadDispatch  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ab42   0x00000002   PAD
-    0x0801ab44   0x00000060   Code   RO          946    .text.osRtxThreadFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801aba4   0x0000000c   Code   RO          344    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801abb0   0x0000000c   Code   RO          650    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801abbc   0x0000000c   Code   RO          702    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801abc8   0x0000000c   Code   RO          844    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801abd4   0x0000000c   Code   RO         1010    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
-    0x0801abe0   0x00000002   Code   RO          858    .text.osRtxThreadId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801abe2   0x00000002   PAD
-    0x0801abe4   0x00000020   Code   RO          952    .text.osRtxThreadJoinWakeup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ac04   0x00000018   Code   RO          818    .text.osRtxThreadListGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ac1c   0x00000034   Code   RO          814    .text.osRtxThreadListPut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ac50   0x0000001a   Code   RO          824    .text.osRtxThreadListRemove  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ac6a   0x00000002   PAD
-    0x0801ac6c   0x00000012   Code   RO          830    .text.osRtxThreadListRoot  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ac7e   0x00000002   PAD
-    0x0801ac80   0x00000030   Code   RO          820    .text.osRtxThreadListSort  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801acb0   0x00000002   Code   RO          782    .text.osRtxThreadObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801a900   0x00000028   Code   RO          742    .text.osRtxSemaphorePostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801a928   0x00000044   Code   RO          846    .text.osRtxThreadBlock  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801a96c   0x000000a0   Code   RO          854    .text.osRtxThreadDelayInsert  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801aa0c   0x00000050   Code   RO          850    .text.osRtxThreadDelayRemove  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801aa5c   0x00000058   Code   RO          828    .text.osRtxThreadDelayTick  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801aab4   0x0000002c   Code   RO          956    .text.osRtxThreadDestroy  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801aae0   0x0000005e   Code   RO          840    .text.osRtxThreadDispatch  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ab3e   0x00000002   PAD
+    0x0801ab40   0x00000060   Code   RO          946    .text.osRtxThreadFree  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801aba0   0x0000000c   Code   RO          344    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801abac   0x0000000c   Code   RO          650    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801abb8   0x0000000c   Code   RO          702    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801abc4   0x0000000c   Code   RO          844    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801abd0   0x0000000c   Code   RO         1010    .text.osRtxThreadGetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
+    0x0801abdc   0x00000002   Code   RO          858    .text.osRtxThreadId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801abde   0x00000002   PAD
+    0x0801abe0   0x00000020   Code   RO          952    .text.osRtxThreadJoinWakeup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ac00   0x00000018   Code   RO          818    .text.osRtxThreadListGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ac18   0x00000034   Code   RO          814    .text.osRtxThreadListPut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ac4c   0x0000001a   Code   RO          824    .text.osRtxThreadListRemove  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ac66   0x00000002   PAD
+    0x0801ac68   0x00000012   Code   RO          830    .text.osRtxThreadListRoot  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ac7a   0x00000002   PAD
+    0x0801ac7c   0x00000030   Code   RO          820    .text.osRtxThreadListSort  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801acac   0x00000002   Code   RO          782    .text.osRtxThreadObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801acae   0x00000002   PAD
+    0x0801acb0   0x00000002   Code   RO          816    .text.osRtxThreadObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
     0x0801acb2   0x00000002   PAD
-    0x0801acb4   0x00000002   Code   RO          816    .text.osRtxThreadObject  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801acb6   0x00000002   PAD
-    0x0801acb8   0x00000028   Code   RO          912    .text.osRtxThreadPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ace0   0x00000018   Code   RO          826    .text.osRtxThreadReadyPut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801acf8   0x00000010   Code   RO          834    .text.osRtxThreadRegPtr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ad08   0x0000000e   Code   RO          954    .text.osRtxThreadSetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ad16   0x00000002   PAD
-    0x0801ad18   0x0000000c   Code   RO         1014    .text.osRtxThreadSetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
-    0x0801ad24   0x00000050   Code   RO          856    .text.osRtxThreadStartup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ad74   0x00000010   Code   RO          838    .text.osRtxThreadSwitch  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801ad84   0x0000004c   Code   RO          852    .text.osRtxThreadWaitEnter  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801add0   0x00000024   Code   RO          848    .text.osRtxThreadWaitExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801adf4   0x00000084   Code   RO          774    .text.osRtxTick_Handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
-    0x0801ae78   0x00000026   Code   RO          988    .text.osRtxTimerSetup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
-    0x0801ae9e   0x00000002   PAD
-    0x0801aea0   0x00000022   Code   RO          992    .text.osRtxTimerThread  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
-    0x0801aec2   0x00000002   PAD
-    0x0801aec4   0x00000088   Code   RO          990    .text.osRtxTimerTick  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
-    0x0801af4c   0x00000030   Code   RO          738    .text.osSemaphoreDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801af7c   0x00000036   Code   RO          718    .text.osSemaphoreNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801afb2   0x00000002   PAD
-    0x0801afb4   0x00000026   Code   RO          730    .text.osSemaphoreRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801afda   0x00000002   PAD
-    0x0801afdc   0x0000001a   Code   RO          219    .text.osSignalSet   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Library/cmsis_os1.o
-    0x0801aff6   0x00000002   PAD
-    0x0801aff8   0x0000001a   Code   RO          894    .text.osThreadExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b012   0x00000002   PAD
-    0x0801b014   0x00000030   Code   RO          906    .text.osThreadFlagsClear  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b044   0x0000001e   Code   RO          908    .text.osThreadFlagsGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b062   0x00000002   PAD
-    0x0801b064   0x0000002c   Code   RO          902    .text.osThreadFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b090   0x00000038   Code   RO          910    .text.osThreadFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b0c8   0x00000020   Code   RO          870    .text.osThreadGetId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b0e8   0x00000036   Code   RO          862    .text.osThreadNew   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b11e   0x00000002   PAD
-    0x0801b120   0x00000034   Code   RO          896    .text.osThreadTerminate  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801b154   0x0000001e   Code   RO         1077    .text.os_kernel_is_active  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
-    0x0801b172   0x00000002   PAD
-    0x0801b174   0x00000034   Code   RO        34486    .text.parse_string_to_integer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
-    0x0801b1a8   0x000000c8   Code   RO        41693    .text.pin_function  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
-    0x0801b270   0x0000007c   Code   RO        41705    .text.pin_mode      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
-    0x0801b2ec   0x00000026   Code   RO        32909    .text.pinmap_find_function  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
-    0x0801b312   0x00000002   PAD
-    0x0801b314   0x00000028   Code   RO        32905    .text.pinmap_find_peripheral  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
-    0x0801b33c   0x0000005c   Code   RO        32907    .text.pinmap_peripheral  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
-    0x0801b398   0x00000164   Code   RO        33633    .text.print_context_info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
-    0x0801b4fc   0x0000020c   Code   RO        33823    .text.print_error_report  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x0801b708   0x00000032   Code   RO        34102    .text.read          BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x0801b73a   0x00000002   PAD
-    0x0801b73c   0x0000000e   Code   RO         1190    .text.rtos_idle_loop  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_idle.o
-    0x0801b74a   0x00000002   PAD
-    0x0801b74c   0x000000d4   Code   RO        32969    .text.schedule_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801b820   0x00000018   Code   RO        41854    .text.serial_baud   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x0801b838   0x00000042   Code   RO        41172    .text.serial_getc   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-    0x0801b87a   0x00000002   PAD
-    0x0801b87c   0x00000248   Code   RO        41844    .text.serial_init_direct  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x0801bac4   0x0000002a   Code   RO        41174    .text.serial_putc   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
-    0x0801baee   0x00000002   PAD
-    0x0801baf0   0x00000032   Code   RO        41868    .text.serial_readable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x0801bb22   0x00000002   PAD
-    0x0801bb24   0x0000001a   Code   RO        41870    .text.serial_writable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x0801bb3e   0x00000002   PAD
-    0x0801bb40   0x00000006   Code   RO        32963    .text.set_handler   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801bb46   0x00000002   PAD
-    0x0801bb48   0x00000058   Code   RO        34021    .text.sleep_manager_lock_deep_sleep_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
-    0x0801bba0   0x00000010   Code   RO        34029    .text.sleep_manager_sleep_auto  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
-    0x0801bbb0   0x00000058   Code   RO        34023    .text.sleep_manager_unlock_deep_sleep_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
-    0x0801bc08   0x00000016   Code   RO        41703    .text.stm_pin_PullConfig  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
-    0x0801bc1e   0x00000002   PAD
-    0x0801bc20   0x00000022   Code   RO        41697    .text.stm_pin_SetAFPin  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
-    0x0801bc42   0x00000002   PAD
-    0x0801bc44   0x00000028   Code   RO          278    .text.svcRtxDelay   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_delay.o
-    0x0801bc6c   0x00000084   Code   RO          316    .text.svcRtxEventFlagsNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801bcf0   0x00000084   Code   RO          336    .text.svcRtxEventFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801bd74   0x00000084   Code   RO          342    .text.svcRtxEventFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
-    0x0801bdf8   0x00000008   Code   RO          409    .text.svcRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801be00   0x0000000c   Code   RO          425    .text.svcRtxKernelGetTickCount  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801be0c   0x0000014c   Code   RO          439    .text.svcRtxKernelInitialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801bf58   0x00000080   Code   RO          443    .text.svcRtxKernelStart  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x0801bfd8   0x00000106   Code   RO          658    .text.svcRtxMessageQueueGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801c0de   0x00000002   PAD
-    0x0801c0e0   0x00000180   Code   RO          598    .text.svcRtxMessageQueueNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801c260   0x000000e6   Code   RO          648    .text.svcRtxMessageQueuePut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
-    0x0801c346   0x00000002   PAD
-    0x0801c348   0x000000c0   Code   RO          700    .text.svcRtxMutexAcquire  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801c408   0x000000d6   Code   RO          708    .text.svcRtxMutexDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801c4de   0x00000002   PAD
-    0x0801c4e0   0x00000088   Code   RO          694    .text.svcRtxMutexNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801c568   0x000000e4   Code   RO          704    .text.svcRtxMutexRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
-    0x0801c64c   0x0000007c   Code   RO          764    .text.svcRtxSemaphoreDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801c6c8   0x000000a8   Code   RO          740    .text.svcRtxSemaphoreNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801c770   0x0000005c   Code   RO          762    .text.svcRtxSemaphoreRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
-    0x0801c7cc   0x0000004a   Code   RO          950    .text.svcRtxThreadExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c816   0x00000002   PAD
-    0x0801c818   0x00000038   Code   RO          970    .text.svcRtxThreadFlagsClear  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c850   0x00000010   Code   RO          976    .text.svcRtxThreadFlagsGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c860   0x00000076   Code   RO          968    .text.svcRtxThreadFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c8d6   0x00000002   PAD
-    0x0801c8d8   0x00000078   Code   RO          978    .text.svcRtxThreadFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c950   0x00000008   Code   RO          872    .text.svcRtxThreadGetId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801c958   0x00000232   Code   RO          860    .text.svcRtxThreadNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801cb8a   0x00000002   PAD
-    0x0801cb8c   0x000000ba   Code   RO          958    .text.svcRtxThreadTerminate  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
-    0x0801cc46   0x00000002   PAD
-    0x0801cc48   0x00000004   Code   RO        33845    .text.system_reset  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x0801cc4c   0x00000014   Code   RO         1170    .text.thread_terminate_hook  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
-    0x0801cc60   0x00000036   Code   RO        32977    .text.ticker_insert_event_us  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801cc96   0x00000002   PAD
-    0x0801cc98   0x0000006a   Code   RO        32965    .text.ticker_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801cd02   0x00000002   PAD
-    0x0801cd04   0x00000022   Code   RO        32983    .text.ticker_read_us  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801cd26   0x00000002   PAD
-    0x0801cd28   0x00000038   Code   RO        32979    .text.ticker_remove_event  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801cd60   0x0000001c   Code   RO        32959    .text.ticker_set_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801cd7c   0x00000036   Code   RO        42062    .text.timer_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801cdb2   0x00000002   PAD
-    0x0801cdb4   0x0000002c   Code   RO         1152    .text.trap_rtx_error  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
-    0x0801cde0   0x00000088   Code   RO        32967    .text.update_present_time  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
-    0x0801ce68   0x00000012   Code   RO        42082    .text.us_ticker_clear_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801ce7a   0x00000002   PAD
-    0x0801ce7c   0x00000014   Code   RO        42080    .text.us_ticker_disable_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801ce90   0x00000022   Code   RO        42076    .text.us_ticker_fire_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801ceb2   0x00000002   PAD
-    0x0801ceb4   0x0000000a   Code   RO        42060    .text.us_ticker_get_info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801cebe   0x00000002   PAD
-    0x0801cec0   0x0000001c   Code   RO        42070    .text.us_ticker_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801cedc   0x0000001e   Code   RO        33011    .text.us_ticker_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
-    0x0801cefa   0x00000002   PAD
-    0x0801cefc   0x0000000c   Code   RO        42072    .text.us_ticker_read  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801cf08   0x0000001c   Code   RO        42074    .text.us_ticker_set_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x0801cf24   0x00000032   Code   RO        34094    .text.write         BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x0801cf56   0x00000002   PAD
-    0x0801cf58   0x00000338   Code   RO        47119    CL$$btod_div_common  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d290   0x00000084   Code   RO        47117    CL$$btod_e2d        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d314   0x000000dc   Code   RO        47116    CL$$btod_e2e        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d3f0   0x0000002a   Code   RO        47113    CL$$btod_ediv       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d41a   0x0000002a   Code   RO        47115    CL$$btod_edivd      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d444   0x0000002a   Code   RO        47112    CL$$btod_emul       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d46e   0x0000002a   Code   RO        47114    CL$$btod_emuld      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d498   0x00000244   Code   RO        47118    CL$$btod_mult_common  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
-    0x0801d6dc   0x00000030   Code   RO        47058    i.__ARM_fpclassify  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(fpclassify.o)
-    0x0801d70c   0x00000004   PAD
-    0x0801d710   0x000000f8   Code   RO        47236    i.__hardfp___mathlib_tofloat  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(narrow.o)
-    0x0801d808   0x000000c8   Code   RO        42578    i.__hardfp_cos      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos.o)
-    0x0801d8d0   0x000000d0   Code   RO        47315    i.__hardfp_ldexp    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(ldexp.o)
-    0x0801d9a0   0x00000438   Code   RO        46373    i.__ieee754_rem_pio2  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(rred.o)
-    0x0801ddd8   0x00000170   Code   RO        46356    i.__kernel_cos      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos_i.o)
-    0x0801df48   0x000000f8   Code   RO        47060    i.__kernel_poly     c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(poly.o)
-    0x0801e040   0x00000130   Code   RO        46378    i.__kernel_sin      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(sin_i.o)
-    0x0801e170   0x00000014   Code   RO        46360    i.__mathlib_dbl_infnan  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
-    0x0801e184   0x00000004   PAD
-    0x0801e188   0x00000020   Code   RO        46362    i.__mathlib_dbl_invalid  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
-    0x0801e1a8   0x00000020   Code   RO        46363    i.__mathlib_dbl_overflow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
-    0x0801e1c8   0x00000020   Code   RO        46365    i.__mathlib_dbl_underflow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
-    0x0801e1e8   0x00000012   Code   RO        47237    i.__mathlib_narrow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(narrow.o)
-    0x0801e1fa   0x00000014   Code   RO        47317    i.__support_ldexp   c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(ldexp.o)
-    0x0801e20e   0x0000000e   Code   RO        46435    i._is_digit         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(scanf_fp.o)
-    0x0801e21c   0x00000018   Code   RO        47054    i.fabs              c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(fabs.o)
-    0x0801e234   0x00000018   Code   RO        42225    i.fgetc             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(fgetc.o)
-    0x0801e24c   0x0000001a   Code   RO        42231    i.fputc             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(fputc.o)
-    0x0801e266   0x00000002   PAD
-    0x0801e268   0x0000008c   Code   RO        47301    i.frexp             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(frexp.o)
-    0x0801e2f4   0x00000004   PAD
-    0x0801e2f8   0x00000030   Code   RO        47064    i.strtod            c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtod.o)
-    0x0801e328   0x0000001c   Code   RO        42592    i.strtof            c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtof.o)
-    0x0801e344   0x00000004   PAD
-    0x0801e348   0x00000030   Code   RO        47070    i.strtold           c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtold.o)
-    0x0801e378   0x0000002c   Code   RO        42693    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_ctype_c.o)
-    0x0801e3a4   0x0000002c   Code   RO        47146    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_numeric_c.o)
-    0x0801e3d0   0x0000002c   Code   RO        47149    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_time_c.o)
-    0x0801e3fc   0x00000018   Code   RO        42762    x$fpl$basic         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(basic.o)
-    0x0801e414   0x00000062   Code   RO        42344    x$fpl$d2f           c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(d2f.o)
-    0x0801e476   0x00000002   PAD
-    0x0801e478   0x00000150   Code   RO        42346    x$fpl$dadd          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
-    0x0801e5c8   0x00000010   Code   RO        47335    x$fpl$dcheck1       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dcheck1.o)
-    0x0801e5d8   0x00000018   Code   RO        46550    x$fpl$dcmpinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dcmpi.o)
-    0x0801e5f0   0x000002b4   Code   RO        42355    x$fpl$ddiv          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(ddiv.o)
-    0x0801e8a4   0x00000078   Code   RO        42764    x$fpl$deqf          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(deqf.o)
-    0x0801e91c   0x0000005e   Code   RO        42358    x$fpl$dfix          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dfix.o)
-    0x0801e97a   0x0000002e   Code   RO        42367    x$fpl$dflt          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dflt_clz.o)
-    0x0801e9a8   0x00000026   Code   RO        42366    x$fpl$dfltu         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dflt_clz.o)
-    0x0801e9ce   0x00000002   PAD
-    0x0801e9d0   0x00000078   Code   RO        42768    x$fpl$dleqf         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dleqf.o)
-    0x0801ea48   0x00000154   Code   RO        42372    x$fpl$dmul          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dmul.o)
-    0x0801eb9c   0x0000009c   Code   RO        42770    x$fpl$dnaninf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dnaninf.o)
-    0x0801ec38   0x0000000c   Code   RO        42772    x$fpl$dretinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dretinf.o)
-    0x0801ec44   0x0000006c   Code   RO        47297    x$fpl$drleqf        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(drleqf.o)
-    0x0801ecb0   0x00000016   Code   RO        42347    x$fpl$drsb          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
-    0x0801ecc6   0x00000002   PAD
-    0x0801ecc8   0x000001dc   Code   RO        42348    x$fpl$dsub          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
-    0x0801eea4   0x0000001a   Code   RO        46552    x$fpl$fpinit        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpinit.o)
-    0x0801eebe   0x0000000a   Code   RO        42776    x$fpl$fretinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fretinf.o)
-    0x0801eec8   0x00000006   Code   RO        47183    x$fpl$ieeestatus    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(istatus.o)
-    0x0801eece   0x00000064   Code   RO        47337    x$fpl$retnan        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(retnan.o)
-    0x0801ef32   0x0000005c   Code   RO        47333    x$fpl$scalbn        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scalbn.o)
-    0x0801ef8e   0x00000004   Code   RO        42778    x$fpl$scanf1        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scanf1.o)
-    0x0801ef92   0x00000008   Code   RO        47185    x$fpl$scanf2        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scanf2.o)
-    0x0801ef9a   0x00000030   Code   RO        47339    x$fpl$trapveneer    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(trapv.o)
-    0x0801efca   0x00000000   Code   RO        42780    x$fpl$usenofp       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(usenofp.o)
-    0x0801efca   0x00000006   PAD
-    0x0801efd0   0x00000030   Data   RO        46357    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos_i.o)
-    0x0801f000   0x000000cc   Data   RO        46375    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(rred.o)
-    0x0801f0cc   0x00000004   PAD
-    0x0801f0d0   0x00000028   Data   RO        46379    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(sin_i.o)
-    0x0801f0f8   0x00000094   Data   RO        47107    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(bigflt0.o)
-    0x0801f18c   0x000000a8   Data   RO          487    .rodata             BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x0801f234   0x00000016   Data   RO        44554    .rodata..L__const._ZNKSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEE6do_getES4_S4_RNS_8ios_baseERjPSt2tmcc.__fm.10  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f24a   0x00000002   PAD
-    0x0801f24c   0x0000000a   Data   RO        44555    .rodata..L__const._ZNKSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEE6do_getES4_S4_RNS_8ios_baseERjPSt2tmcc.__fm.11  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f256   0x00000002   PAD
-    0x0801f258   0x00000010   Data   RO         1134    .rodata..L__const.mbed_rtos_init_singleton_mutex.singleton_mutex_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
-    0x0801f268   0x00000040   Data   RO          173    .rodata..Lconstinit  BUILD/NUCLEO_F429ZI/ARMC6/main.o
-    0x0801f2a8   0x00000010   Data   RO        41014    .rodata.AHBPrescTable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/STM32Cube_FW/system_stm32f4xx.o
-    0x0801f2b8   0x00000008   Data   RO        41015    .rodata.APBPrescTable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/STM32Cube_FW/system_stm32f4xx.o
-    0x0801f2c0   0x0000024c   Data   RO        41024    .rodata.PinMap_ADC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_NUCLEO_F429ZI/PeripheralPins.o
-    0x0801f50c   0x00000030   Data   RO        41025    .rodata.PinMap_ADC_Internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_NUCLEO_F429ZI/PeripheralPins.o
-    0x0801f53c   0x00000021   Data   RO        44548    .rodata._ZNSt3__214__num_get_base5__srcE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f55d   0x00000001   Data   RO        42463    .rodata._ZSt7nothrow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(new.cpp.o)
-    0x0801f55e   0x00000002   PAD
-    0x0801f560   0x0000000c   Data   RO        46171    .rodata._ZTIN10__cxxabiv116__shim_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801f56c   0x0000000c   Data   RO        46173    .rodata._ZTIN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801f578   0x0000000c   Data   RO        46348    .rodata._ZTIN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801f584   0x0000000c   Data   RO        46351    .rodata._ZTIN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801f590   0x0000000c   Data   RO        42556    .rodata._ZTINSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801f59c   0x0000000c   Data   RO        42559    .rodata._ZTINSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801f5a8   0x00000008   Data   RO        45966    .rodata._ZTINSt3__210__time_putE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f5b0   0x00000008   Data   RO        45917    .rodata._ZTINSt3__210ctype_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f5b8   0x00000008   Data   RO        45976    .rodata._ZTINSt3__210money_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f5c0   0x00000020   Data   RO        45977    .rodata._ZTINSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f5e0   0x00000020   Data   RO        45979    .rodata._ZTINSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f600   0x00000020   Data   RO        45981    .rodata._ZTINSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f620   0x00000020   Data   RO        45983    .rodata._ZTINSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f640   0x00000008   Data   RO        45994    .rodata._ZTINSt3__211__money_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f648   0x00000008   Data   RO        45998    .rodata._ZTINSt3__211__money_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f650   0x00000008   Data   RO        46002    .rodata._ZTINSt3__211__money_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f658   0x00000008   Data   RO        46006    .rodata._ZTINSt3__211__money_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f660   0x0000000c   Data   RO        42562    .rodata._ZTINSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801f66c   0x0000000c   Data   RO        42565    .rodata._ZTINSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801f678   0x00000008   Data   RO        45919    .rodata._ZTINSt3__212codecvt_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f680   0x00000018   Data   RO        43864    .rodata._ZTINSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f698   0x00000018   Data   RO        43866    .rodata._ZTINSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f6b0   0x00000018   Data   RO        43868    .rodata._ZTINSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f6c8   0x00000018   Data   RO        43870    .rodata._ZTINSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f6e0   0x00000008   Data   RO        46010    .rodata._ZTINSt3__213messages_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f6e8   0x00000008   Data   RO        45927    .rodata._ZTINSt3__214__num_get_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f6f0   0x00000008   Data   RO        45937    .rodata._ZTINSt3__214__num_put_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f6f8   0x00000008   Data   RO        42412    .rodata._ZTINSt3__214__shared_countE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(memory.cpp.o)
-    0x0801f700   0x00000008   Data   RO        43860    .rodata._ZTINSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f708   0x00000008   Data   RO        43862    .rodata._ZTINSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801f710   0x00000008   Data   RO        45948    .rodata._ZTINSt3__220__time_get_c_storageIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f718   0x00000008   Data   RO        45952    .rodata._ZTINSt3__220__time_get_c_storageIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f720   0x00000020   Data   RO        44714    .rodata._ZTINSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f740   0x00000020   Data   RO        44641    .rodata._ZTINSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f760   0x0000000c   Data   RO        44708    .rodata._ZTINSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f76c   0x0000000c   Data   RO        44638    .rodata._ZTINSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f778   0x00000020   Data   RO        44656    .rodata._ZTINSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f798   0x00000020   Data   RO        44653    .rodata._ZTINSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f7b8   0x00000020   Data   RO        44650    .rodata._ZTINSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f7d8   0x00000020   Data   RO        44647    .rodata._ZTINSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f7f8   0x00000020   Data   RO        44644    .rodata._ZTINSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f818   0x00000020   Data   RO        44672    .rodata._ZTINSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f838   0x0000000c   Data   RO        45921    .rodata._ZTINSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f844   0x0000000c   Data   RO        45923    .rodata._ZTINSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f850   0x00000020   Data   RO        45929    .rodata._ZTINSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f870   0x00000020   Data   RO        45933    .rodata._ZTINSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f890   0x00000020   Data   RO        45939    .rodata._ZTINSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f8b0   0x00000020   Data   RO        45943    .rodata._ZTINSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f8d0   0x00000008   Data   RO        42871    .rodata._ZTINSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
-    0x0801f8d8   0x00000020   Data   RO        46011    .rodata._ZTINSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f8f8   0x00000020   Data   RO        46013    .rodata._ZTINSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f918   0x0000000c   Data   RO        44720    .rodata._ZTINSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f924   0x0000000c   Data   RO        44722    .rodata._ZTINSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f930   0x00000028   Data   RO        45949    .rodata._ZTINSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f958   0x00000028   Data   RO        45953    .rodata._ZTINSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f980   0x00000020   Data   RO        45967    .rodata._ZTINSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f9a0   0x00000020   Data   RO        45969    .rodata._ZTINSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f9c0   0x00000018   Data   RO        45928    .rodata._ZTINSt3__29__num_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f9d8   0x00000018   Data   RO        45932    .rodata._ZTINSt3__29__num_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801f9f0   0x00000018   Data   RO        45938    .rodata._ZTINSt3__29__num_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fa08   0x00000018   Data   RO        45942    .rodata._ZTINSt3__29__num_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fa20   0x0000000c   Data   RO        43856    .rodata._ZTINSt3__29basic_iosIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fa2c   0x0000000c   Data   RO        43858    .rodata._ZTINSt3__29basic_iosIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fa38   0x00000020   Data   RO        45995    .rodata._ZTINSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fa58   0x00000020   Data   RO        45999    .rodata._ZTINSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fa78   0x00000020   Data   RO        46003    .rodata._ZTINSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fa98   0x00000020   Data   RO        46007    .rodata._ZTINSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fab8   0x00000008   Data   RO        45946    .rodata._ZTINSt3__29time_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fac0   0x00000008   Data   RO        47046    .rodata._ZTISt9type_info  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(stdlib_typeinfo.cpp.o)
-    0x0801fac8   0x00000021   Data   RO        46170    .rodata._ZTSN10__cxxabiv116__shim_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801fae9   0x00000022   Data   RO        46172    .rodata._ZTSN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801fb0b   0x00000025   Data   RO        46347    .rodata._ZTSN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801fb30   0x00000026   Data   RO        46350    .rodata._ZTSN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0801fb56   0x00000018   Data   RO        42555    .rodata._ZTSNSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801fb6e   0x00000018   Data   RO        42558    .rodata._ZTSNSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801fb86   0x00000015   Data   RO        45965    .rodata._ZTSNSt3__210__time_putE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fb9b   0x00000015   Data   RO        45916    .rodata._ZTSNSt3__210ctype_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fbb0   0x00000015   Data   RO        45975    .rodata._ZTSNSt3__210money_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fbc5   0x0000001c   Data   RO        45974    .rodata._ZTSNSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fbe1   0x0000001c   Data   RO        45978    .rodata._ZTSNSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fbfd   0x0000001c   Data   RO        45980    .rodata._ZTSNSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc19   0x0000001c   Data   RO        45982    .rodata._ZTSNSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc35   0x00000019   Data   RO        45993    .rodata._ZTSNSt3__211__money_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc4e   0x00000019   Data   RO        45997    .rodata._ZTSNSt3__211__money_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc67   0x00000019   Data   RO        46001    .rodata._ZTSNSt3__211__money_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc80   0x00000019   Data   RO        46005    .rodata._ZTSNSt3__211__money_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fc99   0x00000019   Data   RO        42561    .rodata._ZTSNSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801fcb2   0x00000019   Data   RO        42564    .rodata._ZTSNSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x0801fccb   0x00000017   Data   RO        45918    .rodata._ZTSNSt3__212codecvt_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fce2   0x0000002f   Data   RO        43863    .rodata._ZTSNSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fd11   0x0000002f   Data   RO        43865    .rodata._ZTSNSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fd40   0x0000002f   Data   RO        43867    .rodata._ZTSNSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fd6f   0x0000002f   Data   RO        43869    .rodata._ZTSNSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fd9e   0x00000018   Data   RO        46009    .rodata._ZTSNSt3__213messages_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fdb6   0x00000019   Data   RO        45926    .rodata._ZTSNSt3__214__num_get_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fdcf   0x00000019   Data   RO        45936    .rodata._ZTSNSt3__214__num_put_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fde8   0x00000019   Data   RO        42411    .rodata._ZTSNSt3__214__shared_countE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(memory.cpp.o)
-    0x0801fe01   0x00000031   Data   RO        43859    .rodata._ZTSNSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fe32   0x00000031   Data   RO        43861    .rodata._ZTSNSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x0801fe63   0x00000022   Data   RO        45947    .rodata._ZTSNSt3__220__time_get_c_storageIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fe85   0x00000022   Data   RO        45951    .rodata._ZTSNSt3__220__time_get_c_storageIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fea7   0x00000012   Data   RO        44713    .rodata._ZTSNSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801feb9   0x00000012   Data   RO        44640    .rodata._ZTSNSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fecb   0x00000016   Data   RO        44707    .rodata._ZTSNSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fee1   0x00000016   Data   RO        44637    .rodata._ZTSNSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fef7   0x00000026   Data   RO        44655    .rodata._ZTSNSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ff1d   0x00000025   Data   RO        44652    .rodata._ZTSNSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ff42   0x00000026   Data   RO        44649    .rodata._ZTSNSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ff68   0x00000025   Data   RO        44646    .rodata._ZTSNSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ff8d   0x00000024   Data   RO        44643    .rodata._ZTSNSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ffb1   0x00000024   Data   RO        44671    .rodata._ZTSNSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ffd5   0x00000014   Data   RO        45920    .rodata._ZTSNSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801ffe9   0x00000014   Data   RO        45922    .rodata._ZTSNSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0801fffd   0x00000044   Data   RO        45924    .rodata._ZTSNSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020041   0x00000044   Data   RO        45930    .rodata._ZTSNSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020085   0x00000044   Data   RO        45934    .rodata._ZTSNSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080200c9   0x00000044   Data   RO        45940    .rodata._ZTSNSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802010d   0x00000012   Data   RO        42870    .rodata._ZTSNSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
-    0x0802011f   0x00000015   Data   RO        46008    .rodata._ZTSNSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020134   0x00000015   Data   RO        46012    .rodata._ZTSNSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020149   0x00000015   Data   RO        44719    .rodata._ZTSNSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802015e   0x00000015   Data   RO        44721    .rodata._ZTSNSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020173   0x00000045   Data   RO        45944    .rodata._ZTSNSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080201b8   0x00000045   Data   RO        45950    .rodata._ZTSNSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080201fd   0x00000045   Data   RO        45964    .rodata._ZTSNSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020242   0x00000045   Data   RO        45968    .rodata._ZTSNSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020287   0x00000016   Data   RO        45925    .rodata._ZTSNSt3__29__num_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802029d   0x00000016   Data   RO        45931    .rodata._ZTSNSt3__29__num_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080202b3   0x00000016   Data   RO        45935    .rodata._ZTSNSt3__29__num_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080202c9   0x00000016   Data   RO        45941    .rodata._ZTSNSt3__29__num_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080202df   0x0000002a   Data   RO        43855    .rodata._ZTSNSt3__29basic_iosIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020309   0x0000002a   Data   RO        43857    .rodata._ZTSNSt3__29basic_iosIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020333   0x00000046   Data   RO        45992    .rodata._ZTSNSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020379   0x00000046   Data   RO        45996    .rodata._ZTSNSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080203bf   0x00000046   Data   RO        46000    .rodata._ZTSNSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020405   0x00000046   Data   RO        46004    .rodata._ZTSNSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802044b   0x00000013   Data   RO        45945    .rodata._ZTSNSt3__29time_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802045e   0x0000000d   Data   RO        47045    .rodata._ZTSSt9type_info  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(stdlib_typeinfo.cpp.o)
-    0x0802046b   0x00000001   PAD
-    0x0802046c   0x00000044   Data   RO         4926    .rodata._ZTV10STM32_EMAC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
-    0x080204b0   0x00000050   Data   RO        34224    .rodata._ZTV12DirectSerial  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x08020500   0x00000044   Data   RO         4981    .rodata._ZTV4EMAC   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
-    0x08020544   0x00000028   Data   RO        46345    .rodata._ZTVN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x0802056c   0x00000028   Data   RO        46346    .rodata._ZTVN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x08020594   0x00000028   Data   RO        46349    .rodata._ZTVN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
-    0x080205bc   0x00000050   Data   RO        33349    .rodata._ZTVN4mbed10FileHandleE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/FileHandle.o
-    0x0802060c   0x0000000c   Data   RO        30277    .rodata._ZTVN4mbed10TickerBaseE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/Ticker.o
-    0x08020618   0x0000000c   Data   RO        30389    .rodata._ZTVN4mbed10TimerEventE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/TimerEvent.o
-    0x08020624   0x0000000c   Data   RO        30285    .rodata._ZTVN4mbed6TickerE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/Ticker.o
-    0x08020630   0x00000018   Data   RO        29280    .rodata._ZTVN4mbed8AnalogInE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/AnalogIn.o
-    0x08020648   0x00000010   Data   RO        34775    .rodata._ZTVN4rtos6ThreadE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/Thread.o
-    0x08020658   0x00000040   Data   RO        42554    .rodata._ZTVNSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x08020698   0x00000040   Data   RO        42557    .rodata._ZTVNSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x080206d8   0x00000038   Data   RO        45880    .rodata._ZTVNSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020710   0x00000038   Data   RO        45883    .rodata._ZTVNSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020748   0x00000038   Data   RO        45886    .rodata._ZTVNSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020780   0x00000038   Data   RO        45889    .rodata._ZTVNSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080207b8   0x00000040   Data   RO        42560    .rodata._ZTVNSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x080207f8   0x00000040   Data   RO        42563    .rodata._ZTVNSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x08020838   0x00000028   Data   RO        43833    .rodata._ZTVNSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020860   0x00000028   Data   RO        43835    .rodata._ZTVNSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020888   0x00000028   Data   RO        43837    .rodata._ZTVNSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x080208b0   0x00000028   Data   RO        43839    .rodata._ZTVNSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x080208d8   0x00000040   Data   RO        43831    .rodata._ZTVNSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020918   0x00000040   Data   RO        43832    .rodata._ZTVNSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08020958   0x00000034   Data   RO        44590    .rodata._ZTVNSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x0802098c   0x00000044   Data   RO        44639    .rodata._ZTVNSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080209d0   0x00000014   Data   RO        44566    .rodata._ZTVNSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080209e4   0x00000014   Data   RO        44636    .rodata._ZTVNSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080209f8   0x00000030   Data   RO        44654    .rodata._ZTVNSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020a28   0x00000030   Data   RO        44651    .rodata._ZTVNSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020a58   0x00000030   Data   RO        44648    .rodata._ZTVNSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020a88   0x00000030   Data   RO        44645    .rodata._ZTVNSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020ab8   0x00000030   Data   RO        44642    .rodata._ZTVNSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020ae8   0x00000030   Data   RO        44596    .rodata._ZTVNSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020b18   0x00000020   Data   RO        45856    .rodata._ZTVNSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020b38   0x00000020   Data   RO        45858    .rodata._ZTVNSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020b58   0x00000040   Data   RO        45860    .rodata._ZTVNSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020b98   0x00000040   Data   RO        45862    .rodata._ZTVNSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020bd8   0x00000034   Data   RO        45864    .rodata._ZTVNSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020c0c   0x00000034   Data   RO        45866    .rodata._ZTVNSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020c40   0x00000010   Data   RO        42868    .rodata._ZTVNSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
-    0x08020c50   0x00000020   Data   RO        45904    .rodata._ZTVNSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020c70   0x00000020   Data   RO        45906    .rodata._ZTVNSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020c90   0x00000028   Data   RO        44603    .rodata._ZTVNSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020cb8   0x00000028   Data   RO        44604    .rodata._ZTVNSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020ce0   0x00000054   Data   RO        45868    .rodata._ZTVNSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020d34   0x00000054   Data   RO        45870    .rodata._ZTVNSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020d88   0x00000018   Data   RO        45874    .rodata._ZTVNSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020da0   0x00000018   Data   RO        45876    .rodata._ZTVNSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020db8   0x0000001c   Data   RO        45896    .rodata._ZTVNSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020dd4   0x0000001c   Data   RO        45898    .rodata._ZTVNSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020df0   0x0000001c   Data   RO        45900    .rodata._ZTVNSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020e0c   0x0000001c   Data   RO        45902    .rodata._ZTVNSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08020e28   0x00000018   Data   RO        34234    .rodata._ZZL15default_consolevE14console_pinmap  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x08020e40   0x00000400   Data   RO        44591    .rodata._ZZNSt3__25ctypeIcE13classic_tableEvE13builtin_table  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08021240   0x00000008   Data   RO        34220    .rodata.__stderr_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x08021248   0x00000007   Data   RO        34218    .rodata.__stdin_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x0802124f   0x00000008   Data   RO        34219    .rodata.__stdout_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x08021257   0x00000001   PAD
-    0x08021258   0x00000030   Data   RO        44553    .rodata.cst16       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08021288   0x00000040   Data   RO        41715    .rodata.ll_pin_defines  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
-    0x080212c8   0x00000004   Data   RO          489    .rodata.osRtxUserSVC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x080212cc   0x00000024   Data   RO          484    .rodata.os_idle_thread_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x080212f0   0x00000018   Data   RO          486    .rodata.os_timer_mq_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x08021308   0x00000024   Data   RO          485    .rodata.os_timer_thread_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x0802132c   0x00000013   Data   RO          490    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
-    0x0802133f   0x00000010   Data   RO         1132    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
-    0x0802134f   0x00000138   Data   RO         1177    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
-    0x08021487   0x0000003b   Data   RO         1308    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/cellular/source/framework/AT/AT_CellularContext.o
-    0x080214c2   0x00000032   Data   RO         4929    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
-    0x080214f4   0x00000056   Data   RO        27965    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/netsocket/source/nsapi_dns.o
-    0x0802154a   0x0000003e   Data   RO        31946    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/events/source/mbed_shared_queues.o
-    0x08021588   0x000000e0   Data   RO        33637    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
-    0x08021668   0x000001a4   Data   RO        33876    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
-    0x0802180c   0x00000063   Data   RO        34228    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x0802186f   0x00000012   Data   RO        34645    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/Mutex.o
-    0x08021881   0x000000aa   Data   RO        34729    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/ThisThread.o
-    0x0802192b   0x0000003e   Data   RO        41074    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/analogin_device.o
-    0x08021969   0x0000002a   Data   RO        41883    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x08021993   0x00000026   Data   RO        42499    .rodata.str1.1      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x080219b9   0x00000016   Data   RO        44549    .rodata.str1.1      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080219cf   0x00000001   PAD
-    0x080219d0   0x0000000b   Data   RO          471    .rodata.str1.4      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
-    0x080219db   0x00000001   PAD
-    0x080219dc   0x0000000b   Data   RO        44556    .rodata.str1.4      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x080219e7   0x00000001   PAD
-    0x080219e8   0x00000112   Data   RO        44605    .rodata.str2.2      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
-    0x08021afa   0x00000002   PAD
-    0x08021afc   0x00000008   Data   RO        33015    .rodata.us_data     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
-    0x08021b04   0x00000024   Data   RO        33017    .rodata.us_interface  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
-    0x08021b28   0x00000008   Data   RO        42090    .rodata.us_ticker_get_info.info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x08021b30   0x00000020   Data   RO        47341    Region$$Table       anon$$obj.o
-    0x08021b50   0x00000008   Data   RO        47179    c$$dinf             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpconst.o)
-    0x08021b58   0x00000008   Data   RO        47182    c$$dmax             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpconst.o)
-    0x08021b60   0x00000110   Data   RO        42692    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_ctype_c.o)
-    0x08021c70   0x0000001c   Data   RO        47145    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_numeric_c.o)
-    0x08021c8c   0x00000180   Data   RO        47148    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_time_c.o)
-    0x08021e0c   0x00000004   Data   RO           81    .init_array         BUILD/NUCLEO_F429ZI/ARMC6/libuopmsb/uopmsb/uop_msb.o
-    0x08021e10   0x00000004   Data   RO          174    .init_array         BUILD/NUCLEO_F429ZI/ARMC6/main.o
-    0x08021e14   0x00000000   Data   RO        42339    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(init_aeabi.o)
-    0x08021e14   0x00000004   Data   RO        42500    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
-    0x08021e18   0x00000004   Data   RO        42876    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
-    0x08021e1c   0x00000004   Data   RO        42885    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
-    0x08021e20   0x00000004   Data   RO        44770    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801acb4   0x00000028   Code   RO          912    .text.osRtxThreadPostProcess  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801acdc   0x00000018   Code   RO          826    .text.osRtxThreadReadyPut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801acf4   0x00000010   Code   RO          834    .text.osRtxThreadRegPtr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ad04   0x0000000e   Code   RO          954    .text.osRtxThreadSetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ad12   0x00000002   PAD
+    0x0801ad14   0x0000000c   Code   RO         1014    .text.osRtxThreadSetRunning  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
+    0x0801ad20   0x00000050   Code   RO          856    .text.osRtxThreadStartup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ad70   0x00000010   Code   RO          838    .text.osRtxThreadSwitch  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801ad80   0x0000004c   Code   RO          852    .text.osRtxThreadWaitEnter  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801adcc   0x00000024   Code   RO          848    .text.osRtxThreadWaitExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801adf0   0x00000084   Code   RO          774    .text.osRtxTick_Handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.o
+    0x0801ae74   0x00000026   Code   RO          988    .text.osRtxTimerSetup  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
+    0x0801ae9a   0x00000002   PAD
+    0x0801ae9c   0x00000022   Code   RO          992    .text.osRtxTimerThread  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
+    0x0801aebe   0x00000002   PAD
+    0x0801aec0   0x00000088   Code   RO          990    .text.osRtxTimerTick  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.o
+    0x0801af48   0x00000030   Code   RO          738    .text.osSemaphoreDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801af78   0x00000036   Code   RO          718    .text.osSemaphoreNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801afae   0x00000002   PAD
+    0x0801afb0   0x00000026   Code   RO          730    .text.osSemaphoreRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801afd6   0x00000002   PAD
+    0x0801afd8   0x0000001a   Code   RO          219    .text.osSignalSet   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Library/cmsis_os1.o
+    0x0801aff2   0x00000002   PAD
+    0x0801aff4   0x0000001a   Code   RO          894    .text.osThreadExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b00e   0x00000002   PAD
+    0x0801b010   0x00000030   Code   RO          906    .text.osThreadFlagsClear  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b040   0x0000001e   Code   RO          908    .text.osThreadFlagsGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b05e   0x00000002   PAD
+    0x0801b060   0x0000002c   Code   RO          902    .text.osThreadFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b08c   0x00000038   Code   RO          910    .text.osThreadFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b0c4   0x00000020   Code   RO          870    .text.osThreadGetId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b0e4   0x00000036   Code   RO          862    .text.osThreadNew   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b11a   0x00000002   PAD
+    0x0801b11c   0x00000034   Code   RO          896    .text.osThreadTerminate  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801b150   0x0000001e   Code   RO         1077    .text.os_kernel_is_active  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x0801b16e   0x00000002   PAD
+    0x0801b170   0x00000034   Code   RO        34486    .text.parse_string_to_integer  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/minimal-printf/mbed_printf_implementation.o
+    0x0801b1a4   0x000000c8   Code   RO        41693    .text.pin_function  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
+    0x0801b26c   0x0000007c   Code   RO        41705    .text.pin_mode      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
+    0x0801b2e8   0x00000026   Code   RO        32909    .text.pinmap_find_function  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
+    0x0801b30e   0x00000002   PAD
+    0x0801b310   0x00000028   Code   RO        32905    .text.pinmap_find_peripheral  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
+    0x0801b338   0x0000005c   Code   RO        32907    .text.pinmap_peripheral  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_pinmap_common.o
+    0x0801b394   0x00000164   Code   RO        33633    .text.print_context_info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+    0x0801b4f8   0x0000020c   Code   RO        33823    .text.print_error_report  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x0801b704   0x00000032   Code   RO        34102    .text.read          BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x0801b736   0x00000002   PAD
+    0x0801b738   0x0000000e   Code   RO         1190    .text.rtos_idle_loop  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_idle.o
+    0x0801b746   0x00000002   PAD
+    0x0801b748   0x000000d4   Code   RO        32969    .text.schedule_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801b81c   0x00000018   Code   RO        41854    .text.serial_baud   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x0801b834   0x00000042   Code   RO        41172    .text.serial_getc   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+    0x0801b876   0x00000002   PAD
+    0x0801b878   0x00000248   Code   RO        41844    .text.serial_init_direct  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x0801bac0   0x0000002a   Code   RO        41174    .text.serial_putc   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/serial_device.o
+    0x0801baea   0x00000002   PAD
+    0x0801baec   0x00000032   Code   RO        41868    .text.serial_readable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x0801bb1e   0x00000002   PAD
+    0x0801bb20   0x0000001a   Code   RO        41870    .text.serial_writable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x0801bb3a   0x00000002   PAD
+    0x0801bb3c   0x00000006   Code   RO        32963    .text.set_handler   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801bb42   0x00000002   PAD
+    0x0801bb44   0x00000058   Code   RO        34021    .text.sleep_manager_lock_deep_sleep_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
+    0x0801bb9c   0x00000010   Code   RO        34029    .text.sleep_manager_sleep_auto  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
+    0x0801bbac   0x00000058   Code   RO        34023    .text.sleep_manager_unlock_deep_sleep_internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_power_mgmt.o
+    0x0801bc04   0x00000016   Code   RO        41703    .text.stm_pin_PullConfig  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
+    0x0801bc1a   0x00000002   PAD
+    0x0801bc1c   0x00000022   Code   RO        41697    .text.stm_pin_SetAFPin  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
+    0x0801bc3e   0x00000002   PAD
+    0x0801bc40   0x00000028   Code   RO          278    .text.svcRtxDelay   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_delay.o
+    0x0801bc68   0x00000084   Code   RO          316    .text.svcRtxEventFlagsNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801bcec   0x00000084   Code   RO          336    .text.svcRtxEventFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801bd70   0x00000084   Code   RO          342    .text.svcRtxEventFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.o
+    0x0801bdf4   0x00000008   Code   RO          409    .text.svcRtxKernelGetState  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801bdfc   0x0000000c   Code   RO          425    .text.svcRtxKernelGetTickCount  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801be08   0x0000014c   Code   RO          439    .text.svcRtxKernelInitialize  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801bf54   0x00000080   Code   RO          443    .text.svcRtxKernelStart  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x0801bfd4   0x00000106   Code   RO          658    .text.svcRtxMessageQueueGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801c0da   0x00000002   PAD
+    0x0801c0dc   0x00000180   Code   RO          598    .text.svcRtxMessageQueueNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801c25c   0x000000e6   Code   RO          648    .text.svcRtxMessageQueuePut  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.o
+    0x0801c342   0x00000002   PAD
+    0x0801c344   0x000000c0   Code   RO          700    .text.svcRtxMutexAcquire  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801c404   0x000000d6   Code   RO          708    .text.svcRtxMutexDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801c4da   0x00000002   PAD
+    0x0801c4dc   0x00000088   Code   RO          694    .text.svcRtxMutexNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801c564   0x000000e4   Code   RO          704    .text.svcRtxMutexRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.o
+    0x0801c648   0x0000007c   Code   RO          764    .text.svcRtxSemaphoreDelete  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801c6c4   0x000000a8   Code   RO          740    .text.svcRtxSemaphoreNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801c76c   0x0000005c   Code   RO          762    .text.svcRtxSemaphoreRelease  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.o
+    0x0801c7c8   0x0000004a   Code   RO          950    .text.svcRtxThreadExit  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c812   0x00000002   PAD
+    0x0801c814   0x00000038   Code   RO          970    .text.svcRtxThreadFlagsClear  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c84c   0x00000010   Code   RO          976    .text.svcRtxThreadFlagsGet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c85c   0x00000076   Code   RO          968    .text.svcRtxThreadFlagsSet  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c8d2   0x00000002   PAD
+    0x0801c8d4   0x00000078   Code   RO          978    .text.svcRtxThreadFlagsWait  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c94c   0x00000008   Code   RO          872    .text.svcRtxThreadGetId  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801c954   0x00000232   Code   RO          860    .text.svcRtxThreadNew  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801cb86   0x00000002   PAD
+    0x0801cb88   0x000000ba   Code   RO          958    .text.svcRtxThreadTerminate  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.o
+    0x0801cc42   0x00000002   PAD
+    0x0801cc44   0x00000004   Code   RO        33845    .text.system_reset  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x0801cc48   0x00000014   Code   RO         1170    .text.thread_terminate_hook  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
+    0x0801cc5c   0x00000036   Code   RO        32977    .text.ticker_insert_event_us  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801cc92   0x00000002   PAD
+    0x0801cc94   0x0000006a   Code   RO        32965    .text.ticker_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801ccfe   0x00000002   PAD
+    0x0801cd00   0x00000022   Code   RO        32983    .text.ticker_read_us  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801cd22   0x00000002   PAD
+    0x0801cd24   0x00000038   Code   RO        32979    .text.ticker_remove_event  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801cd5c   0x0000001c   Code   RO        32959    .text.ticker_set_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801cd78   0x00000036   Code   RO        42062    .text.timer_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801cdae   0x00000002   PAD
+    0x0801cdb0   0x0000002c   Code   RO         1152    .text.trap_rtx_error  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
+    0x0801cddc   0x00000088   Code   RO        32967    .text.update_present_time  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_ticker_api.o
+    0x0801ce64   0x00000012   Code   RO        42082    .text.us_ticker_clear_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801ce76   0x00000002   PAD
+    0x0801ce78   0x00000014   Code   RO        42080    .text.us_ticker_disable_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801ce8c   0x00000022   Code   RO        42076    .text.us_ticker_fire_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801ceae   0x00000002   PAD
+    0x0801ceb0   0x0000000a   Code   RO        42060    .text.us_ticker_get_info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801ceba   0x00000002   PAD
+    0x0801cebc   0x0000001c   Code   RO        42070    .text.us_ticker_init  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801ced8   0x0000001e   Code   RO        33011    .text.us_ticker_irq_handler  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
+    0x0801cef6   0x00000002   PAD
+    0x0801cef8   0x0000000c   Code   RO        42072    .text.us_ticker_read  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801cf04   0x0000001c   Code   RO        42074    .text.us_ticker_set_interrupt  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x0801cf20   0x00000032   Code   RO        34094    .text.write         BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x0801cf52   0x00000002   PAD
+    0x0801cf54   0x00000338   Code   RO        47119    CL$$btod_div_common  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d28c   0x00000084   Code   RO        47117    CL$$btod_e2d        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d310   0x000000dc   Code   RO        47116    CL$$btod_e2e        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d3ec   0x0000002a   Code   RO        47113    CL$$btod_ediv       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d416   0x0000002a   Code   RO        47115    CL$$btod_edivd      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d440   0x0000002a   Code   RO        47112    CL$$btod_emul       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d46a   0x0000002a   Code   RO        47114    CL$$btod_emuld      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d494   0x00000244   Code   RO        47118    CL$$btod_mult_common  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(btod.o)
+    0x0801d6d8   0x00000030   Code   RO        47058    i.__ARM_fpclassify  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(fpclassify.o)
+    0x0801d708   0x000000f8   Code   RO        47236    i.__hardfp___mathlib_tofloat  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(narrow.o)
+    0x0801d800   0x000000c8   Code   RO        42578    i.__hardfp_cos      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos.o)
+    0x0801d8c8   0x000000d0   Code   RO        47315    i.__hardfp_ldexp    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(ldexp.o)
+    0x0801d998   0x00000438   Code   RO        46373    i.__ieee754_rem_pio2  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(rred.o)
+    0x0801ddd0   0x00000170   Code   RO        46356    i.__kernel_cos      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos_i.o)
+    0x0801df40   0x000000f8   Code   RO        47060    i.__kernel_poly     c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(poly.o)
+    0x0801e038   0x00000130   Code   RO        46378    i.__kernel_sin      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(sin_i.o)
+    0x0801e168   0x00000014   Code   RO        46360    i.__mathlib_dbl_infnan  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
+    0x0801e17c   0x00000004   PAD
+    0x0801e180   0x00000020   Code   RO        46362    i.__mathlib_dbl_invalid  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
+    0x0801e1a0   0x00000020   Code   RO        46363    i.__mathlib_dbl_overflow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
+    0x0801e1c0   0x00000020   Code   RO        46365    i.__mathlib_dbl_underflow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(dunder.o)
+    0x0801e1e0   0x00000012   Code   RO        47237    i.__mathlib_narrow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(narrow.o)
+    0x0801e1f2   0x00000014   Code   RO        47317    i.__support_ldexp   c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(ldexp.o)
+    0x0801e206   0x0000000e   Code   RO        46435    i._is_digit         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(scanf_fp.o)
+    0x0801e214   0x00000018   Code   RO        47054    i.fabs              c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(fabs.o)
+    0x0801e22c   0x00000018   Code   RO        42225    i.fgetc             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(fgetc.o)
+    0x0801e244   0x0000001a   Code   RO        42231    i.fputc             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(fputc.o)
+    0x0801e25e   0x00000002   PAD
+    0x0801e260   0x0000008c   Code   RO        47301    i.frexp             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(frexp.o)
+    0x0801e2ec   0x00000004   PAD
+    0x0801e2f0   0x00000030   Code   RO        47064    i.strtod            c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtod.o)
+    0x0801e320   0x0000001c   Code   RO        42592    i.strtof            c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtof.o)
+    0x0801e33c   0x00000004   PAD
+    0x0801e340   0x00000030   Code   RO        47070    i.strtold           c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(strtold.o)
+    0x0801e370   0x0000002c   Code   RO        42693    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_ctype_c.o)
+    0x0801e39c   0x0000002c   Code   RO        47146    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_numeric_c.o)
+    0x0801e3c8   0x0000002c   Code   RO        47149    locale$$code        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_time_c.o)
+    0x0801e3f4   0x00000018   Code   RO        42762    x$fpl$basic         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(basic.o)
+    0x0801e40c   0x00000062   Code   RO        42344    x$fpl$d2f           c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(d2f.o)
+    0x0801e46e   0x00000002   PAD
+    0x0801e470   0x00000150   Code   RO        42346    x$fpl$dadd          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
+    0x0801e5c0   0x00000010   Code   RO        47335    x$fpl$dcheck1       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dcheck1.o)
+    0x0801e5d0   0x00000018   Code   RO        46550    x$fpl$dcmpinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dcmpi.o)
+    0x0801e5e8   0x000002b4   Code   RO        42355    x$fpl$ddiv          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(ddiv.o)
+    0x0801e89c   0x00000078   Code   RO        42764    x$fpl$deqf          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(deqf.o)
+    0x0801e914   0x0000005e   Code   RO        42358    x$fpl$dfix          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dfix.o)
+    0x0801e972   0x0000002e   Code   RO        42367    x$fpl$dflt          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dflt_clz.o)
+    0x0801e9a0   0x00000026   Code   RO        42366    x$fpl$dfltu         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dflt_clz.o)
+    0x0801e9c6   0x00000002   PAD
+    0x0801e9c8   0x00000078   Code   RO        42768    x$fpl$dleqf         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dleqf.o)
+    0x0801ea40   0x00000154   Code   RO        42372    x$fpl$dmul          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dmul.o)
+    0x0801eb94   0x0000009c   Code   RO        42770    x$fpl$dnaninf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dnaninf.o)
+    0x0801ec30   0x0000000c   Code   RO        42772    x$fpl$dretinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(dretinf.o)
+    0x0801ec3c   0x0000006c   Code   RO        47297    x$fpl$drleqf        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(drleqf.o)
+    0x0801eca8   0x00000016   Code   RO        42347    x$fpl$drsb          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
+    0x0801ecbe   0x00000002   PAD
+    0x0801ecc0   0x000001dc   Code   RO        42348    x$fpl$dsub          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(daddsub_clz.o)
+    0x0801ee9c   0x0000001a   Code   RO        46552    x$fpl$fpinit        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpinit.o)
+    0x0801eeb6   0x0000000a   Code   RO        42776    x$fpl$fretinf       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fretinf.o)
+    0x0801eec0   0x00000006   Code   RO        47183    x$fpl$ieeestatus    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(istatus.o)
+    0x0801eec6   0x00000064   Code   RO        47337    x$fpl$retnan        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(retnan.o)
+    0x0801ef2a   0x0000005c   Code   RO        47333    x$fpl$scalbn        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scalbn.o)
+    0x0801ef86   0x00000004   Code   RO        42778    x$fpl$scanf1        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scanf1.o)
+    0x0801ef8a   0x00000008   Code   RO        47185    x$fpl$scanf2        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(scanf2.o)
+    0x0801ef92   0x00000030   Code   RO        47339    x$fpl$trapveneer    c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(trapv.o)
+    0x0801efc2   0x00000000   Code   RO        42780    x$fpl$usenofp       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(usenofp.o)
+    0x0801efc2   0x00000006   PAD
+    0x0801efc8   0x00000030   Data   RO        46357    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(cos_i.o)
+    0x0801eff8   0x000000cc   Data   RO        46375    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(rred.o)
+    0x0801f0c4   0x00000004   PAD
+    0x0801f0c8   0x00000028   Data   RO        46379    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\m_wm.l(sin_i.o)
+    0x0801f0f0   0x00000094   Data   RO        47107    .constdata          c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(bigflt0.o)
+    0x0801f184   0x000000a8   Data   RO          487    .rodata             BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x0801f22c   0x00000016   Data   RO        44554    .rodata..L__const._ZNKSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEE6do_getES4_S4_RNS_8ios_baseERjPSt2tmcc.__fm.10  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f242   0x00000002   PAD
+    0x0801f244   0x0000000a   Data   RO        44555    .rodata..L__const._ZNKSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEE6do_getES4_S4_RNS_8ios_baseERjPSt2tmcc.__fm.11  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f24e   0x00000002   PAD
+    0x0801f250   0x00000010   Data   RO         1134    .rodata..L__const.mbed_rtos_init_singleton_mutex.singleton_mutex_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
+    0x0801f260   0x00000040   Data   RO          173    .rodata..Lconstinit  BUILD/NUCLEO_F429ZI/ARMC6/main.o
+    0x0801f2a0   0x00000010   Data   RO        41014    .rodata.AHBPrescTable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/STM32Cube_FW/system_stm32f4xx.o
+    0x0801f2b0   0x00000008   Data   RO        41015    .rodata.APBPrescTable  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/STM32Cube_FW/system_stm32f4xx.o
+    0x0801f2b8   0x0000024c   Data   RO        41024    .rodata.PinMap_ADC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_NUCLEO_F429ZI/PeripheralPins.o
+    0x0801f504   0x00000030   Data   RO        41025    .rodata.PinMap_ADC_Internal  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_NUCLEO_F429ZI/PeripheralPins.o
+    0x0801f534   0x00000021   Data   RO        44548    .rodata._ZNSt3__214__num_get_base5__srcE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f555   0x00000001   Data   RO        42463    .rodata._ZSt7nothrow  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(new.cpp.o)
+    0x0801f556   0x00000002   PAD
+    0x0801f558   0x0000000c   Data   RO        46171    .rodata._ZTIN10__cxxabiv116__shim_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801f564   0x0000000c   Data   RO        46173    .rodata._ZTIN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801f570   0x0000000c   Data   RO        46348    .rodata._ZTIN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801f57c   0x0000000c   Data   RO        46351    .rodata._ZTIN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801f588   0x0000000c   Data   RO        42556    .rodata._ZTINSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801f594   0x0000000c   Data   RO        42559    .rodata._ZTINSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801f5a0   0x00000008   Data   RO        45966    .rodata._ZTINSt3__210__time_putE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f5a8   0x00000008   Data   RO        45917    .rodata._ZTINSt3__210ctype_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f5b0   0x00000008   Data   RO        45976    .rodata._ZTINSt3__210money_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f5b8   0x00000020   Data   RO        45977    .rodata._ZTINSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f5d8   0x00000020   Data   RO        45979    .rodata._ZTINSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f5f8   0x00000020   Data   RO        45981    .rodata._ZTINSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f618   0x00000020   Data   RO        45983    .rodata._ZTINSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f638   0x00000008   Data   RO        45994    .rodata._ZTINSt3__211__money_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f640   0x00000008   Data   RO        45998    .rodata._ZTINSt3__211__money_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f648   0x00000008   Data   RO        46002    .rodata._ZTINSt3__211__money_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f650   0x00000008   Data   RO        46006    .rodata._ZTINSt3__211__money_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f658   0x0000000c   Data   RO        42562    .rodata._ZTINSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801f664   0x0000000c   Data   RO        42565    .rodata._ZTINSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801f670   0x00000008   Data   RO        45919    .rodata._ZTINSt3__212codecvt_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f678   0x00000018   Data   RO        43864    .rodata._ZTINSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f690   0x00000018   Data   RO        43866    .rodata._ZTINSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f6a8   0x00000018   Data   RO        43868    .rodata._ZTINSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f6c0   0x00000018   Data   RO        43870    .rodata._ZTINSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f6d8   0x00000008   Data   RO        46010    .rodata._ZTINSt3__213messages_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f6e0   0x00000008   Data   RO        45927    .rodata._ZTINSt3__214__num_get_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f6e8   0x00000008   Data   RO        45937    .rodata._ZTINSt3__214__num_put_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f6f0   0x00000008   Data   RO        42412    .rodata._ZTINSt3__214__shared_countE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(memory.cpp.o)
+    0x0801f6f8   0x00000008   Data   RO        43860    .rodata._ZTINSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f700   0x00000008   Data   RO        43862    .rodata._ZTINSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801f708   0x00000008   Data   RO        45948    .rodata._ZTINSt3__220__time_get_c_storageIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f710   0x00000008   Data   RO        45952    .rodata._ZTINSt3__220__time_get_c_storageIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f718   0x00000020   Data   RO        44714    .rodata._ZTINSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f738   0x00000020   Data   RO        44641    .rodata._ZTINSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f758   0x0000000c   Data   RO        44708    .rodata._ZTINSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f764   0x0000000c   Data   RO        44638    .rodata._ZTINSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f770   0x00000020   Data   RO        44656    .rodata._ZTINSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f790   0x00000020   Data   RO        44653    .rodata._ZTINSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f7b0   0x00000020   Data   RO        44650    .rodata._ZTINSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f7d0   0x00000020   Data   RO        44647    .rodata._ZTINSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f7f0   0x00000020   Data   RO        44644    .rodata._ZTINSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f810   0x00000020   Data   RO        44672    .rodata._ZTINSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f830   0x0000000c   Data   RO        45921    .rodata._ZTINSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f83c   0x0000000c   Data   RO        45923    .rodata._ZTINSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f848   0x00000020   Data   RO        45929    .rodata._ZTINSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f868   0x00000020   Data   RO        45933    .rodata._ZTINSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f888   0x00000020   Data   RO        45939    .rodata._ZTINSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f8a8   0x00000020   Data   RO        45943    .rodata._ZTINSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f8c8   0x00000008   Data   RO        42871    .rodata._ZTINSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
+    0x0801f8d0   0x00000020   Data   RO        46011    .rodata._ZTINSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f8f0   0x00000020   Data   RO        46013    .rodata._ZTINSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f910   0x0000000c   Data   RO        44720    .rodata._ZTINSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f91c   0x0000000c   Data   RO        44722    .rodata._ZTINSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f928   0x00000028   Data   RO        45949    .rodata._ZTINSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f950   0x00000028   Data   RO        45953    .rodata._ZTINSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f978   0x00000020   Data   RO        45967    .rodata._ZTINSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f998   0x00000020   Data   RO        45969    .rodata._ZTINSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f9b8   0x00000018   Data   RO        45928    .rodata._ZTINSt3__29__num_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f9d0   0x00000018   Data   RO        45932    .rodata._ZTINSt3__29__num_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801f9e8   0x00000018   Data   RO        45938    .rodata._ZTINSt3__29__num_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fa00   0x00000018   Data   RO        45942    .rodata._ZTINSt3__29__num_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fa18   0x0000000c   Data   RO        43856    .rodata._ZTINSt3__29basic_iosIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fa24   0x0000000c   Data   RO        43858    .rodata._ZTINSt3__29basic_iosIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fa30   0x00000020   Data   RO        45995    .rodata._ZTINSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fa50   0x00000020   Data   RO        45999    .rodata._ZTINSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fa70   0x00000020   Data   RO        46003    .rodata._ZTINSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fa90   0x00000020   Data   RO        46007    .rodata._ZTINSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fab0   0x00000008   Data   RO        45946    .rodata._ZTINSt3__29time_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fab8   0x00000008   Data   RO        47046    .rodata._ZTISt9type_info  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(stdlib_typeinfo.cpp.o)
+    0x0801fac0   0x00000021   Data   RO        46170    .rodata._ZTSN10__cxxabiv116__shim_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801fae1   0x00000022   Data   RO        46172    .rodata._ZTSN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801fb03   0x00000025   Data   RO        46347    .rodata._ZTSN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801fb28   0x00000026   Data   RO        46350    .rodata._ZTSN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0801fb4e   0x00000018   Data   RO        42555    .rodata._ZTSNSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801fb66   0x00000018   Data   RO        42558    .rodata._ZTSNSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801fb7e   0x00000015   Data   RO        45965    .rodata._ZTSNSt3__210__time_putE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fb93   0x00000015   Data   RO        45916    .rodata._ZTSNSt3__210ctype_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fba8   0x00000015   Data   RO        45975    .rodata._ZTSNSt3__210money_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fbbd   0x0000001c   Data   RO        45974    .rodata._ZTSNSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fbd9   0x0000001c   Data   RO        45978    .rodata._ZTSNSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fbf5   0x0000001c   Data   RO        45980    .rodata._ZTSNSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc11   0x0000001c   Data   RO        45982    .rodata._ZTSNSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc2d   0x00000019   Data   RO        45993    .rodata._ZTSNSt3__211__money_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc46   0x00000019   Data   RO        45997    .rodata._ZTSNSt3__211__money_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc5f   0x00000019   Data   RO        46001    .rodata._ZTSNSt3__211__money_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc78   0x00000019   Data   RO        46005    .rodata._ZTSNSt3__211__money_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fc91   0x00000019   Data   RO        42561    .rodata._ZTSNSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801fcaa   0x00000019   Data   RO        42564    .rodata._ZTSNSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x0801fcc3   0x00000017   Data   RO        45918    .rodata._ZTSNSt3__212codecvt_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fcda   0x0000002f   Data   RO        43863    .rodata._ZTSNSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fd09   0x0000002f   Data   RO        43865    .rodata._ZTSNSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fd38   0x0000002f   Data   RO        43867    .rodata._ZTSNSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fd67   0x0000002f   Data   RO        43869    .rodata._ZTSNSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fd96   0x00000018   Data   RO        46009    .rodata._ZTSNSt3__213messages_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fdae   0x00000019   Data   RO        45926    .rodata._ZTSNSt3__214__num_get_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fdc7   0x00000019   Data   RO        45936    .rodata._ZTSNSt3__214__num_put_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fde0   0x00000019   Data   RO        42411    .rodata._ZTSNSt3__214__shared_countE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(memory.cpp.o)
+    0x0801fdf9   0x00000031   Data   RO        43859    .rodata._ZTSNSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fe2a   0x00000031   Data   RO        43861    .rodata._ZTSNSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0801fe5b   0x00000022   Data   RO        45947    .rodata._ZTSNSt3__220__time_get_c_storageIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fe7d   0x00000022   Data   RO        45951    .rodata._ZTSNSt3__220__time_get_c_storageIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fe9f   0x00000012   Data   RO        44713    .rodata._ZTSNSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801feb1   0x00000012   Data   RO        44640    .rodata._ZTSNSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fec3   0x00000016   Data   RO        44707    .rodata._ZTSNSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fed9   0x00000016   Data   RO        44637    .rodata._ZTSNSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801feef   0x00000026   Data   RO        44655    .rodata._ZTSNSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ff15   0x00000025   Data   RO        44652    .rodata._ZTSNSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ff3a   0x00000026   Data   RO        44649    .rodata._ZTSNSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ff60   0x00000025   Data   RO        44646    .rodata._ZTSNSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ff85   0x00000024   Data   RO        44643    .rodata._ZTSNSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ffa9   0x00000024   Data   RO        44671    .rodata._ZTSNSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ffcd   0x00000014   Data   RO        45920    .rodata._ZTSNSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801ffe1   0x00000014   Data   RO        45922    .rodata._ZTSNSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0801fff5   0x00000044   Data   RO        45924    .rodata._ZTSNSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020039   0x00000044   Data   RO        45930    .rodata._ZTSNSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0802007d   0x00000044   Data   RO        45934    .rodata._ZTSNSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080200c1   0x00000044   Data   RO        45940    .rodata._ZTSNSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020105   0x00000012   Data   RO        42870    .rodata._ZTSNSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
+    0x08020117   0x00000015   Data   RO        46008    .rodata._ZTSNSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0802012c   0x00000015   Data   RO        46012    .rodata._ZTSNSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020141   0x00000015   Data   RO        44719    .rodata._ZTSNSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020156   0x00000015   Data   RO        44721    .rodata._ZTSNSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0802016b   0x00000045   Data   RO        45944    .rodata._ZTSNSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080201b0   0x00000045   Data   RO        45950    .rodata._ZTSNSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080201f5   0x00000045   Data   RO        45964    .rodata._ZTSNSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0802023a   0x00000045   Data   RO        45968    .rodata._ZTSNSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x0802027f   0x00000016   Data   RO        45925    .rodata._ZTSNSt3__29__num_getIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020295   0x00000016   Data   RO        45931    .rodata._ZTSNSt3__29__num_getIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080202ab   0x00000016   Data   RO        45935    .rodata._ZTSNSt3__29__num_putIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080202c1   0x00000016   Data   RO        45941    .rodata._ZTSNSt3__29__num_putIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080202d7   0x0000002a   Data   RO        43855    .rodata._ZTSNSt3__29basic_iosIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08020301   0x0000002a   Data   RO        43857    .rodata._ZTSNSt3__29basic_iosIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x0802032b   0x00000046   Data   RO        45992    .rodata._ZTSNSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020371   0x00000046   Data   RO        45996    .rodata._ZTSNSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080203b7   0x00000046   Data   RO        46000    .rodata._ZTSNSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080203fd   0x00000046   Data   RO        46004    .rodata._ZTSNSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020443   0x00000013   Data   RO        45945    .rodata._ZTSNSt3__29time_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020456   0x0000000d   Data   RO        47045    .rodata._ZTSSt9type_info  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(stdlib_typeinfo.cpp.o)
+    0x08020463   0x00000001   PAD
+    0x08020464   0x00000044   Data   RO         4926    .rodata._ZTV10STM32_EMAC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
+    0x080204a8   0x00000050   Data   RO        34224    .rodata._ZTV12DirectSerial  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x080204f8   0x00000044   Data   RO         4981    .rodata._ZTV4EMAC   BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
+    0x0802053c   0x00000028   Data   RO        46345    .rodata._ZTVN10__cxxabiv117__class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x08020564   0x00000028   Data   RO        46346    .rodata._ZTVN10__cxxabiv120__si_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x0802058c   0x00000028   Data   RO        46349    .rodata._ZTVN10__cxxabiv121__vmi_class_type_infoE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcppabi_w.l(private_typeinfo.cpp.o)
+    0x080205b4   0x00000050   Data   RO        33349    .rodata._ZTVN4mbed10FileHandleE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/FileHandle.o
+    0x08020604   0x0000000c   Data   RO        30277    .rodata._ZTVN4mbed10TickerBaseE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/Ticker.o
+    0x08020610   0x0000000c   Data   RO        30389    .rodata._ZTVN4mbed10TimerEventE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/TimerEvent.o
+    0x0802061c   0x0000000c   Data   RO        30285    .rodata._ZTVN4mbed6TickerE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/Ticker.o
+    0x08020628   0x00000018   Data   RO        29280    .rodata._ZTVN4mbed8AnalogInE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/drivers/source/AnalogIn.o
+    0x08020640   0x00000010   Data   RO        34775    .rodata._ZTVN4rtos6ThreadE  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/Thread.o
+    0x08020650   0x00000040   Data   RO        42554    .rodata._ZTVNSt3__210__stdinbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x08020690   0x00000040   Data   RO        42557    .rodata._ZTVNSt3__210__stdinbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x080206d0   0x00000038   Data   RO        45880    .rodata._ZTVNSt3__210moneypunctIcLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020708   0x00000038   Data   RO        45883    .rodata._ZTVNSt3__210moneypunctIcLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020740   0x00000038   Data   RO        45886    .rodata._ZTVNSt3__210moneypunctIwLb0EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020778   0x00000038   Data   RO        45889    .rodata._ZTVNSt3__210moneypunctIwLb1EEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080207b0   0x00000040   Data   RO        42560    .rodata._ZTVNSt3__211__stdoutbufIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x080207f0   0x00000040   Data   RO        42563    .rodata._ZTVNSt3__211__stdoutbufIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x08020830   0x00000028   Data   RO        43833    .rodata._ZTVNSt3__213basic_istreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08020858   0x00000028   Data   RO        43835    .rodata._ZTVNSt3__213basic_istreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08020880   0x00000028   Data   RO        43837    .rodata._ZTVNSt3__213basic_ostreamIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x080208a8   0x00000028   Data   RO        43839    .rodata._ZTVNSt3__213basic_ostreamIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x080208d0   0x00000040   Data   RO        43831    .rodata._ZTVNSt3__215basic_streambufIcNS_11char_traitsIcEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08020910   0x00000040   Data   RO        43832    .rodata._ZTVNSt3__215basic_streambufIwNS_11char_traitsIwEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08020950   0x00000034   Data   RO        44590    .rodata._ZTVNSt3__25ctypeIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020984   0x00000044   Data   RO        44639    .rodata._ZTVNSt3__25ctypeIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080209c8   0x00000014   Data   RO        44566    .rodata._ZTVNSt3__26locale5__impE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080209dc   0x00000014   Data   RO        44636    .rodata._ZTVNSt3__26locale5facetE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080209f0   0x00000030   Data   RO        44654    .rodata._ZTVNSt3__27codecvtIDiDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020a20   0x00000030   Data   RO        44651    .rodata._ZTVNSt3__27codecvtIDicSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020a50   0x00000030   Data   RO        44648    .rodata._ZTVNSt3__27codecvtIDsDuSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020a80   0x00000030   Data   RO        44645    .rodata._ZTVNSt3__27codecvtIDscSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020ab0   0x00000030   Data   RO        44642    .rodata._ZTVNSt3__27codecvtIccSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020ae0   0x00000030   Data   RO        44596    .rodata._ZTVNSt3__27codecvtIwcSt11__mbstate_tEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020b10   0x00000020   Data   RO        45856    .rodata._ZTVNSt3__27collateIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020b30   0x00000020   Data   RO        45858    .rodata._ZTVNSt3__27collateIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020b50   0x00000040   Data   RO        45860    .rodata._ZTVNSt3__27num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020b90   0x00000040   Data   RO        45862    .rodata._ZTVNSt3__27num_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020bd0   0x00000034   Data   RO        45864    .rodata._ZTVNSt3__27num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020c04   0x00000034   Data   RO        45866    .rodata._ZTVNSt3__27num_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020c38   0x00000010   Data   RO        42868    .rodata._ZTVNSt3__28ios_baseE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
+    0x08020c48   0x00000020   Data   RO        45904    .rodata._ZTVNSt3__28messagesIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020c68   0x00000020   Data   RO        45906    .rodata._ZTVNSt3__28messagesIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020c88   0x00000028   Data   RO        44603    .rodata._ZTVNSt3__28numpunctIcEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020cb0   0x00000028   Data   RO        44604    .rodata._ZTVNSt3__28numpunctIwEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020cd8   0x00000054   Data   RO        45868    .rodata._ZTVNSt3__28time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020d2c   0x00000054   Data   RO        45870    .rodata._ZTVNSt3__28time_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020d80   0x00000018   Data   RO        45874    .rodata._ZTVNSt3__28time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020d98   0x00000018   Data   RO        45876    .rodata._ZTVNSt3__28time_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020db0   0x0000001c   Data   RO        45896    .rodata._ZTVNSt3__29money_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020dcc   0x0000001c   Data   RO        45898    .rodata._ZTVNSt3__29money_getIwNS_19istreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020de8   0x0000001c   Data   RO        45900    .rodata._ZTVNSt3__29money_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020e04   0x0000001c   Data   RO        45902    .rodata._ZTVNSt3__29money_putIwNS_19ostreambuf_iteratorIwNS_11char_traitsIwEEEEEE  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08020e20   0x00000018   Data   RO        34234    .rodata._ZZL15default_consolevE14console_pinmap  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x08020e38   0x00000400   Data   RO        44591    .rodata._ZZNSt3__25ctypeIcE13classic_tableEvE13builtin_table  c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08021238   0x00000008   Data   RO        34220    .rodata.__stderr_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x08021240   0x00000007   Data   RO        34218    .rodata.__stdin_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x08021247   0x00000008   Data   RO        34219    .rodata.__stdout_name  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x0802124f   0x00000001   PAD
+    0x08021250   0x00000030   Data   RO        44553    .rodata.cst16       c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08021280   0x00000040   Data   RO        41715    .rodata.ll_pin_defines  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/pinmap.o
+    0x080212c0   0x00000004   Data   RO          489    .rodata.osRtxUserSVC  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x080212c4   0x00000024   Data   RO          484    .rodata.os_idle_thread_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x080212e8   0x00000018   Data   RO          486    .rodata.os_timer_mq_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x08021300   0x00000024   Data   RO          485    .rodata.os_timer_thread_attr  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x08021324   0x00000013   Data   RO          490    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.o
+    0x08021337   0x00000010   Data   RO         1132    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtos_rtx.o
+    0x08021347   0x00000138   Data   RO         1177    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/device/rtos/source/mbed_rtx_handlers.o
+    0x0802147f   0x0000003b   Data   RO         1308    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/cellular/source/framework/AT/AT_CellularContext.o
+    0x080214ba   0x00000032   Data   RO         4929    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/drivers/emac/TARGET_STM/stm32xx_emac.o
+    0x080214ec   0x00000056   Data   RO        27965    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/connectivity/netsocket/source/nsapi_dns.o
+    0x08021542   0x0000003e   Data   RO        31946    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/events/source/mbed_shared_queues.o
+    0x08021580   0x000000e0   Data   RO        33637    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/TARGET_CORTEX_M/mbed_fault_handler.o
+    0x08021660   0x000001a4   Data   RO        33876    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_error.o
+    0x08021804   0x00000063   Data   RO        34228    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x08021867   0x00000012   Data   RO        34645    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/Mutex.o
+    0x08021879   0x000000aa   Data   RO        34729    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/rtos/source/ThisThread.o
+    0x08021923   0x0000003e   Data   RO        41074    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32F4/analogin_device.o
+    0x08021961   0x0000002a   Data   RO        41883    .rodata.str1.1      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x0802198b   0x00000026   Data   RO        42499    .rodata.str1.1      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x080219b1   0x00000016   Data   RO        44549    .rodata.str1.1      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080219c7   0x00000001   PAD
+    0x080219c8   0x0000000b   Data   RO          471    .rodata.str1.4      BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.o
+    0x080219d3   0x00000001   PAD
+    0x080219d4   0x0000000b   Data   RO        44556    .rodata.str1.4      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x080219df   0x00000001   PAD
+    0x080219e0   0x00000112   Data   RO        44605    .rodata.str2.2      c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
+    0x08021af2   0x00000002   PAD
+    0x08021af4   0x00000008   Data   RO        33015    .rodata.us_data     BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
+    0x08021afc   0x00000024   Data   RO        33017    .rodata.us_interface  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/hal/source/mbed_us_ticker_api.o
+    0x08021b20   0x00000008   Data   RO        42090    .rodata.us_ticker_get_info.info  BUILD/NUCLEO_F429ZI/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x08021b28   0x00000020   Data   RO        47341    Region$$Table       anon$$obj.o
+    0x08021b48   0x00000008   Data   RO        47179    c$$dinf             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpconst.o)
+    0x08021b50   0x00000008   Data   RO        47182    c$$dmax             c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\fz_wm.l(fpconst.o)
+    0x08021b58   0x00000110   Data   RO        42692    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_ctype_c.o)
+    0x08021c68   0x0000001c   Data   RO        47145    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_numeric_c.o)
+    0x08021c84   0x00000180   Data   RO        47148    locale$$data        c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(lc_time_c.o)
+    0x08021e04   0x00000004   Data   RO           81    .init_array         BUILD/NUCLEO_F429ZI/ARMC6/libuopmsb/uopmsb/uop_msb.o
+    0x08021e08   0x00000004   Data   RO          174    .init_array         BUILD/NUCLEO_F429ZI/ARMC6/main.o
+    0x08021e0c   0x00000000   Data   RO        42339    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(init_aeabi.o)
+    0x08021e0c   0x00000004   Data   RO        42500    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(iostream.cpp.o)
+    0x08021e10   0x00000004   Data   RO        42876    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.cpp.o)
+    0x08021e14   0x00000004   Data   RO        42885    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(ios.instantiations.cpp.o)
+    0x08021e18   0x00000004   Data   RO        44770    .init_array         c:\ProgramData\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\libcxx\libcpp_w.l(locale.cpp.o)
 
 
     Execution Region RW_IRAM2 (Base: 0x10000000, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
@@ -39329,26 +39328,26 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     42124       2640       3663        248     192573    2190764   Object Totals
+     42120       2640       3663        248     192573    2190759   Object Totals
          0          0         32          0     168704          0   (incl. Generated)
        596          0          2          3         41          0   (incl. Padding)
-     84376       2078       8625         16       3327      59108   Library Totals
-       180          8         15          0         18          0   (incl. Padding)
+     84372       2078       8625         16       3327      59108   Library Totals
+       176          8         15          0         18          0   (incl. Padding)
 
 ==============================================================================
 
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-    126500       4718      12288        264     195900    2236888   Grand Totals
-    126500       4718      12288        264     195900    2236888   ELF Image Totals
-    126500       4718      12288        264          0          0   ROM Totals
+    126492       4718      12288        264     195900    2236883   Grand Totals
+    126492       4718      12288        264     195900    2236883   ELF Image Totals
+    126492       4718      12288        264          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)               138788 ( 135.54kB)
+    Total RO  Size (Code + RO Data)               138780 ( 135.53kB)
     Total RW  Size (RW Data + ZI Data)            196164 ( 191.57kB)
-    Total ROM Size (Code + RO Data + RW Data)     139052 ( 135.79kB)
+    Total ROM Size (Code + RO Data + RW Data)     139044 ( 135.79kB)
 
 ==============================================================================
 

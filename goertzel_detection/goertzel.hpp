@@ -5,7 +5,7 @@
 #include "mbed.h"
 
 #define _samplingFrequency 8000
-#define _N 205
+#define _N 200
 #define PI 3.14
 
 class goertzel {
