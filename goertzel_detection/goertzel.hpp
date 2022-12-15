@@ -8,15 +8,11 @@
 
 #define _samplingFrequency 8000
 #define _N 200
-#define PI 3.14
+
 
 class goertzel {
 
-
-
-
     private:
-        double freq_centres[8] = {697,770,852,941,1209,1336,1477,1633};
 
         double _targetFrequency;
         double coeff;
@@ -35,7 +31,7 @@ class goertzel {
 	    void ResetGoertzel(){
             Q2 = 0;
             Q1 = 0;
-            Q0 = 0;
+
         }
 
     public:
@@ -43,14 +39,14 @@ class goertzel {
 
         goertzel(double targetFrequency) : _targetFrequency(targetFrequency){
 
-                omega = (2.0 * PI * _targetFrequency ) / _samplingFrequency;
+                omega = (2.0 * 3.14 * _targetFrequency ) / _samplingFrequency;
                 coeff = 2.0 * cos(omega);
 
             ResetGoertzel();
 
         }
 
-	    double detect(volatile int16_t testData[_N]) {
+	    double detect(volatile uint16_t testData[_N]) {
             double magnitude;
             ResetGoertzel();
             /* Process the samples. */

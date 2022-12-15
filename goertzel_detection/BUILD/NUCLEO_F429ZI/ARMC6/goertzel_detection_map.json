@@ -13,7 +13,7 @@
     {
         "module": "[lib]\\fz_wm.l",
         "size": {
-            ".text": 3756,
+            ".text": 2222,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -24,7 +24,7 @@
     {
         "module": "[lib]\\libcpp_w.l",
         "size": {
-            ".text": 66863,
+            ".text": 67185,
             ".data": 0,
             ".bss": 2961,
             ".text-delta": 0,
@@ -46,7 +46,7 @@
     {
         "module": "[lib]\\m_wm.l",
         "size": {
-            ".text": 3484,
+            ".text": 1988,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -79,10 +79,10 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 1722,
+            ".text": 1410,
             ".data": 0,
-            ".bss": 964,
-            ".text-delta": 0,
+            ".bss": 777,
+            ".text-delta": 36,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -101,7 +101,7 @@
     {
         "module": "mbed-os\\connectivity",
         "size": {
-            ".text": 3099,
+            ".text": 3125,
             ".data": 0,
             ".bss": 12724,
             ".text-delta": 0,
@@ -112,7 +112,7 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 1182,
+            ".text": 1242,
             ".data": 0,
             ".bss": 40,
             ".text-delta": 0,
@@ -156,7 +156,7 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 8720,
+            ".text": 8670,
             ".data": 64,
             ".bss": 281,
             ".text-delta": 0,
@@ -188,10 +188,10 @@
     },
     {
         "summary": {
-            "static_ram": 29490,
+            "static_ram": 29303,
             "static_ram_delta": 0,
-            "total_flash": 140235,
-            "total_flash_delta": 0
+            "total_flash": 137251,
+            "total_flash_delta": 36
         }
     }
 ]
