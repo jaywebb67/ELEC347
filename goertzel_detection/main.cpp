@@ -27,18 +27,25 @@ Mutex bufferLock;
 AnalogIn dataIn(MIC_AN_PIN);
 Ticker sampleTick;
 
-volatile uint16_t samples[200];
+volatile float samples[200];
 
 void sampleISR();
 
  void calcFreqMag(){
 
-    volatile float k;
-    volatile float floatN;
-    volatile float omega,sine,cosine,coeff,Q0,Q1,Q2,magnitude[8],real,imag;
+    volatile float k = 0;
+    volatile float floatN = (float)_N;
+    volatile float omega = 0;
+    volatile float sine = 0;
+    volatile float cosine = 0;
+    volatile float coeff = 0;
+    volatile float Q0 = 0, Q1 = 0, Q2 = 0;
+
+    volatile float magnitude[8] = {0,0,0,0,0,0,0,0};
+    volatile float real = 0,imag = 0;
 
     volatile float scalingFactor = _N/2.0;
-    floatN = (float) _N;
+        
     while(true){
 
         if(!ThisThread::flags_wait_any_for(2,10s)){
@@ -61,9 +68,11 @@ void sampleISR();
             Q2 = 0;
             for (uint16_t index = 0; index < _N; index++)
             {
-                Q0 = coeff * Q1 - Q2 + (float)samples[index];
                 Q2 = Q1;
                 Q1 = Q0;
+                Q0 = coeff * Q1 - Q2 + (float)samples[index];
+
+
             }
             // calculate the real and imaginary results
             // scaling appropriately
@@ -86,7 +95,7 @@ void sampleISR();
 
 int main() {
     int idx = 0;
-    uint16_t sample;
+    float sample;
 
 
     calcThread.start(calcFreqMag);
@@ -100,7 +109,7 @@ int main() {
         if(!bufferLock.trylock_for(10s)){
             system_reset();
         }
-        sample = dataIn.read_u16()-0x8000;
+        sample = dataIn.read()-(32768.0/65536.0);
         samples[idx] = sample;
         bufferLock.unlock();
         if(idx>=199){

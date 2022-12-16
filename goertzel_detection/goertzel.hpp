@@ -8,22 +8,24 @@
 
 #define _samplingFrequency 8000
 #define _N 200
-
+#define PI 3.14159265358979323846
 
 class goertzel {
 
     private:
 
-        double _targetFrequency;
-        double coeff;
+        AnalogIn dataIn;
+        float testData[_N];
+        float _targetFrequency[8] = {697,770,852,941,1209,1336,1477,1633};
+        double coeff[8];
         double Q1;
         double Q2;
         double Q0;
-        double omega;
+        double omega[8];
 
-        void ProcessSample(int sample){
+        void ProcessSample(int sample,int i){
 
-                Q0 = coeff * Q1 - Q2 + float(sample);
+                Q0 = coeff[i] * Q1 - Q2 + float(sample);
                 Q2 = Q1;
                 Q1 = Q0;
             
@@ -37,28 +39,39 @@ class goertzel {
     public:
 
 
-        goertzel(double targetFrequency) : _targetFrequency(targetFrequency){
-
-                omega = (2.0 * 3.14 * _targetFrequency ) / _samplingFrequency;
-                coeff = 2.0 * cos(omega);
-
+        goertzel(AnalogIn dataPin) : dataIn(dataPin){
+            for (int i=0;i<8;i++){
+                omega[i] = (2.0 * PI * _targetFrequency[i] ) / _samplingFrequency;
+                coeff[i] = 2.0 * cos(omega[i]);
+            }
             ResetGoertzel();
 
         }
 
-	    double detect(volatile uint16_t testData[_N]) {
-            double magnitude;
-            ResetGoertzel();
+        void sample(){
+
+            for(int i=0; i<200;i++){
+                testData[i] = dataIn.read()-(32768.0/65536.0);
+                wait_us(125);
+            };
+
+
+        }
+
+	    float detect(int i) {
+            float magnitude;
+
             /* Process the samples. */
             for (uint16_t index = 0; index < _N; index++)
             {
-                ProcessSample(testData[index]);
+                ProcessSample(testData[index],i);
             }
 
             /* Do the "optimized Goertzel" processing. */
-            return magnitude = sqrt(Q1*Q1 + Q2*Q2 - coeff*Q1*Q2);
+            magnitude = sqrt(Q1*Q1 + Q2*Q2 - coeff[i]*Q1*Q2);
 
-
+            ResetGoertzel();
+            return magnitude;
             
 
         };
