@@ -2,7 +2,7 @@
     {
         "module": "[lib]\\c_w.l",
         "size": {
-            ".text": 16870,
+            ".text": 4302,
             ".data": 16,
             ".bss": 348,
             ".text-delta": 0,
@@ -13,7 +13,7 @@
     {
         "module": "[lib]\\fz_wm.l",
         "size": {
-            ".text": 3666,
+            ".text": 3004,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -24,9 +24,9 @@
     {
         "module": "[lib]\\libcpp_w.l",
         "size": {
-            ".text": 66863,
+            ".text": 1,
             ".data": 0,
-            ".bss": 2961,
+            ".bss": 0,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -35,7 +35,7 @@
     {
         "module": "[lib]\\libcppabi_w.l",
         "size": {
-            ".text": 2615,
+            ".text": 44,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -46,7 +46,7 @@
     {
         "module": "[lib]\\m_wm.l",
         "size": {
-            ".text": 3484,
+            ".text": 2770,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -66,11 +66,22 @@
         }
     },
     {
+        "module": "libuopmsb\\EnvSensor",
+        "size": {
+            ".text": 100,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "module": "libuopmsb\\uopmsb",
         "size": {
-            ".text": 28,
+            ".text": 324,
             ".data": 0,
-            ".bss": 1,
+            ".bss": 0,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -79,9 +90,9 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 840,
+            ".text": 1604,
             ".data": 0,
-            ".bss": 0,
+            ".bss": 308,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -112,7 +123,7 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 620,
+            ".text": 1010,
             ".data": 0,
             ".bss": 40,
             ".text-delta": 0,
@@ -132,17 +143,6 @@
         }
     },
     {
-        "module": "mbed-os\\features",
-        "size": {
-            ".text": 18,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
         "module": "mbed-os\\hal",
         "size": {
             ".text": 1350,
@@ -156,7 +156,7 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 8696,
+            ".text": 8108,
             ".data": 64,
             ".bss": 281,
             ".text-delta": 0,
@@ -188,9 +188,9 @@
     },
     {
         "summary": {
-            "static_ram": 28526,
+            "static_ram": 25872,
             "static_ram_delta": 0,
-            "total_flash": 137266,
+            "total_flash": 54833,
             "total_flash_delta": 0
         }
     }
