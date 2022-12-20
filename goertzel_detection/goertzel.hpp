@@ -13,7 +13,7 @@
 class goertzel {
 
     private:
-
+        //member objects used for the algorithm 
         AnalogIn dataIn;
         int16_t testData[_N];
         float _targetFrequency[8] = {697,770,852,941,1209,1336,1483,1639};
@@ -29,6 +29,7 @@ class goertzel {
         double cosine[8];
         float ref_volt;
 
+        //used to process the sample for each iteration, 0 through N
         void ProcessSample_lf(int sample,int i, int index){   
             lf_Vk = coeff[i] * lf_Vk_1 - lf_Vk_2 + sample;
             lf_Vk_2 = lf_Vk_1;
@@ -36,12 +37,14 @@ class goertzel {
 
         }
 
+        //used to process the sample for each iteration, 0 through N
         void ProcessSample_hf(int sample,int i, int index){   
 
             hf_Vk[index] = coeff[i] * hf_Vk[index-1] - hf_Vk[index-2] + sample;
 
         }
 
+        //function is used initial conditions to 0
 	    void ResetGoertzel(){
 
             hf_Vk[1] = 0;
@@ -53,9 +56,11 @@ class goertzel {
         }
 
     public:
-
+        //public member object to store magnitudes in
         float magnitude[8];
 
+
+        //class constructor, defines all the pre-computed constants needed for the algorithm
         goertzel(AnalogIn dataPin) : dataIn(dataPin){
             dataIn.set_reference_voltage(1);
             for (int i=0;i<8;i++){
@@ -69,6 +74,8 @@ class goertzel {
 
         }
 
+
+        //function that performs the sampling and stores into an array
         void sample(){
 
             for(int i=0; i<200;i++){
@@ -77,6 +84,7 @@ class goertzel {
             };
         }
 
+        //function that performs the algorithm and returns the magnitudes 
 	    void detect() {
     
             for(int i=0; i<8;i++){
